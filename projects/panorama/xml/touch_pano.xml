@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="" hideabout="1">
+  <view fovmode="0" pannorth="0">
+    <start pan="159.2" fov="61.48" tilt="-3.3"/>
+    <min pan="-180" fov="5" tilt="-34.55467358752782"/>
+    <max pan="180" fov="120" tilt="34.55467358752782"/>
+  </view>
+  <userdata title="" datetime="2013:01:24 15:01:26" description="" copyright="RJ SHAUGHNESSY" tags="" author="RJ SHAUGHNESSY" source="" comment="" info="" longitude="" latitude=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+    
+    <polyhotspot title="" target="_self" url="/web/browse/product.jsp?productId=0131_5659&amp;bundleCatId=cat6360002" id="bundle01">
+      <vertex pan="129.689" tilt="34.6729"/>
+      <vertex pan="-168.88" tilt="34.6602"/>
+      <vertex pan="-167.655" tilt="-34.9416"/>
+      <vertex pan="128.786" tilt="-34.5558"/>
+      <vertex pan="128.786" tilt="-34.5558"/>
+    </polyhotspot>
+    <polyhotspot title="" target="_self" url="/web/browse/category.jsp?catId=cat6260174" id="shop01">
+      <vertex pan="160.012" tilt="-17.7104"/>
+      <vertex pan="151.249" tilt="-17.8157"/>
+      <vertex pan="151.217" tilt="-20.3315"/>
+      <vertex pan="160.119" tilt="-20.2099"/>
+    </polyhotspot>
+    
+    <polyhotspot title="" target="_self" url="/web/browse/product.jsp?productId=0135_5752&amp;bundleCatId=cat6360003" id="bundle02">
+      <vertex pan="74.61879999999999" tilt="34.4636"/>
+      <vertex pan="73.5882" tilt="-34.8364"/>
+      <vertex pan="128.676" tilt="-34.7161"/>
+      <vertex pan="129.361" tilt="34.8792"/>
+      <vertex pan="129.361" tilt="34.8792"/>
+    </polyhotspot>
+    <polyhotspot title="" target="_self" url="/web/browse/category.jsp?catId=cat6260175" id="shop02">
+      <vertex pan="101.856" tilt="-21.4313"/>
+      <vertex pan="92.6814" tilt="-21.5232"/>
+      <vertex pan="92.75279999999999" tilt="-23.7798"/>
+      <vertex pan="101.814" tilt="-23.8289"/>
+    </polyhotspot>
+    
+    <polyhotspot title="" target="_self" url="/web/browse/product.jsp?productId=1131_5771&amp;bundleCatId=cat6360004" id="bundle03">
+      <vertex pan="19.06" tilt="34.5812"/>
+      <vertex pan="16.6807" tilt="-34.9861"/>
+      <vertex pan="73.37649999999999" tilt="-35.007"/>
+      <vertex pan="74.7131" tilt="34.6808"/>
+      <vertex pan="74.8595" tilt="34.6458"/>
+    </polyhotspot>
+    <polyhotspot title="" target="_self" url="/web/browse/category.jsp?catId=cat6260173" id="shop03">
+      <vertex pan="31.7872" tilt="-18.5987"/>
+      <vertex pan="31.8106" tilt="-21.2287"/>
+      <vertex pan="39.8232" tilt="-20.9393"/>
+      <vertex pan="39.5743" tilt="-18.406"/>
+    </polyhotspot>
+    
+    <polyhotspot title="" target="_self" url="/web/browse/product.jsp?productId=3131_2930&amp;bundleCatId=cat6360005" id="bundle04">
+      <vertex pan="-42.7849" tilt="34.4436"/>
+      <vertex pan="-44.7347" tilt="-34.8429"/>
+      <vertex pan="16.5277" tilt="-35.1086"/>
+      <vertex pan="19.2428" tilt="34.8483"/>
+    </polyhotspot>
+    <polyhotspot title="" target="_self" url="/web/browse/category.jsp?catId=cat6260194" id="shop04">
+      <vertex pan="-23.7416" tilt="-16.2043"/>
+      <vertex pan="-23.8471" tilt="-19.187"/>
+      <vertex pan="-15.8659" tilt="-19.2053"/>
+      <vertex pan="-15.6987" tilt="-16.2576"/>
+      <vertex pan="-15.699" tilt="-16.1997"/>
+    </polyhotspot>
+    
+    <polyhotspot title="" target="_self" url="/web/browse/product.jsp?productId=4133_5800&amp;bundleCatId=cat6360006" id="bundle05">
+      <vertex pan="-102.766" tilt="34.5502"/>
+      <vertex pan="-105.094" tilt="-34.9689"/>
+      <vertex pan="-44.774" tilt="-35.3436"/>
+      <vertex pan="-43.0666" tilt="34.7373"/>
+    </polyhotspot>
+    <polyhotspot title="" target="_self" url="/web/browse/category.jsp?catId=cat6260174" id="shop05">
+      <vertex pan="-83.25749999999999" tilt="-18.4409"/>
+      <vertex pan="-83.3653" tilt="-21.6884"/>
+      <vertex pan="-74.3948" tilt="-21.4921"/>
+      <vertex pan="-74.38420000000001" tilt="-18.3889"/>
+      <vertex pan="-74.44240000000001" tilt="-18.3353"/>
+    </polyhotspot>
+    
+    <polyhotspot title="" target="_self" url="/web/browse/product.jsp?productId=0132_5776&amp;bundleCatId=cat6360007" id="bundle06">
+      <vertex pan="-102.986" tilt="34.5696"/>
+      <vertex pan="-105.216" tilt="-35.1166"/>
+      <vertex pan="-167.358" tilt="-34.9073"/>
+      <vertex pan="-168.738" tilt="34.7043"/>
+    </polyhotspot>
+    <polyhotspot title="" target="_self" url="/web/browse/category.jsp?catId=cat6260175" id="shop06">
+      <vertex pan="-150.225" tilt="-20.4299"/>
+      <vertex pan="-150.376" tilt="-23.4404"/>
+      <vertex pan="-142.413" tilt="-23.2144"/>
+      <vertex pan="-142.202" tilt="-20.226"/>
+    </polyhotspot>
+ 
+  </hotspots>
+  <media/>
+  <input tile0url="/Images/web/guides/2013/summer2/shorts/mens/mobile_960_0.jpg" prev5url="/Images/web/guides/2013/summer2/shorts/mens/pano_preview_5.jpg" prev4url="/Images/web/guides/2013/summer2/shorts/mens/pano_preview_4.jpg" prev3url="/Images/web/guides/2013/summer2/shorts/mens/pano_preview_3.jpg" prev2url="/Images/web/guides/2013/summer2/shorts/mens/pano_preview_2.jpg" prev1url="/Images/web/guides/2013/summer2/shorts/mens/pano_preview_1.jpg" prev0url="/Images/web/guides/2013/summer2/shorts/mens/pano_preview_0.jpg" tile5url="/Images/web/guides/2013/summer2/shorts/mens/mobile_960_5.jpg" tilesize="1440" tile4url="/Images/web/guides/2013/summer2/shorts/mens/mobile_960_4.jpg" tile3url="/Images/web/guides/2013/summer2/shorts/mens/mobile_960_3.jpg" tilescale="1.006944444444444" tile2url="/Images/web/guides/2013/summer2/shorts/mens/mobile_960_2.jpg" tile1url="/Images/web/guides/2013/summer2/shorts/mens/mobile_960_1.jpg"/>
+  <altinput tile0url="/Images/web/guides/2013/summer2/shorts/mens/mobile_400_0.jpg" screensize="500" tile5url="/Images/web/guides/2013/summer2/shorts/mens/mobile_400_5.jpg" tilesize="400" tile4url="/Images/web/guides/2013/summer2/shorts/mens/mobile_400_4.jpg" tile3url="/Images/web/guides/2013/summer2/shorts/mens/mobile_400_3.jpg" tilescale="1.006944444444444" tile2url="/Images/web/guides/2013/summer2/shorts/mens/mobile_400_2.jpg" tile1url="/Images/web/guides/2013/summer2/shorts/mens/mobile_400_1.jpg"/>
+  <autorotate speed="0.150" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="3.00"/>
+  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="6"/>
+</panorama>

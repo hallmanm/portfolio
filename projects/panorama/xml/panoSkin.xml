@@ -1,0 +1,25 @@
+<skin marginleft="0" marginright="0" margintop="0" marginbottom="0" >
+	<element x="-150" y="-50" anchor="7" width="275" height="30" id="Container 10" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="container" mask="0" >
+		<element x="120" y="0" anchor="0" width="30" height="30" id="Button 1" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/nav/button_1.png" overurl="images/nav/button_1__o.png" downurl="images/nav/button_1__a.png" >
+			<action src="pressed" type="tiltdown" value="0.20" value2="" target="$self" />
+		</element>
+		<element x="160" y="0" anchor="0" width="30" height="30" id="Button 3" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/nav/button_3.png" overurl="images/nav/button_3__o.png" downurl="images/nav/button_3__a.png" >
+			<action src="pressed" type="zoomin" value="0.20" value2="" target="$self" />
+		</element>
+		<element x="0" y="0" anchor="0" width="30" height="30" id="Button 4" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/nav/button_4.png" overurl="images/nav/button_4__o.png" downurl="images/nav/button_4__a.png" >
+			<action src="pressed" type="panleft" value="0.20" value2="" target="$self" />
+		</element>
+		<element x="200" y="0" anchor="0" width="30" height="30" id="Button 5" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/nav/button_5.png" overurl="images/nav/button_5__o.png" downurl="images/nav/button_5__a.png" >
+			<action src="pressed" type="zoomout" value="0.20" value2="" target="$self" />
+		</element>
+		<element x="40" y="0" anchor="0" width="30" height="30" id="Button 6" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/nav/button_6.png" overurl="images/nav/button_6__o.png" downurl="images/nav/button_6__a.png" >
+			<action src="pressed" type="panright" value="0.20" value2="" target="$self" />
+		</element>
+		<element x="240" y="0" anchor="0" width="30" height="30" id="Button 7" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/nav/button_7.png" overurl="images/nav/button_7__o.png" downurl="images/nav/button_7__a.png" >
+			<action src="click" type="toogleautorotate" value="" value2="" target="$self" />
+		</element>
+		<element x="80" y="0" anchor="0" width="30" height="30" id="Button 8" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/nav/button_8.png" overurl="images/nav/button_8__o.png" downurl="images/nav/button_8__a.png" >
+			<action src="pressed" type="tiltup" value="0.20" value2="" target="$self" />
+		</element>
+	</element>
+</skin>
