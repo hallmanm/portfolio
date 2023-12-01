@@ -1,0 +1,764 @@
+{
+	"mobile_app_data": {
+		"card_data": {
+			"autoscroll_delay": "4",
+			"cards": [
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"landing"
+					],
+					"image": {
+						"image_src": "20161103_app_hp_aeclearance",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "60% OFF CLEARANCE",
+						"main_message": "In stores & online through Thursday.",
+						"disclaimer": "DETAILS"
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW",
+						"terms": [
+							{
+								"copy_title": "60% OFF CLEARANCE",
+								"copy": "EXCLUDES AERIE, JEANS, UNDERWEAR & OTHER ITEMS. PRICES AS MARKED."
+							}
+						],
+						"copyright": "© 2023 AEO MANAGEMENT CO. ALL RIGHTS RESERVED."
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "SHOP WOMEN",
+							"link": "cat6470590",
+							"destination_title": "WOMEN'S CLEARANCE"
+						},
+						{
+							"type": "category",
+							"cta": "SHOP MEN",
+							"link": "cat6470582",
+							"destination_title": "MEN'S CLEARANCE"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"landing"
+					],
+					"image": {
+						"image_src": "20161103_app_aehp_weallcan",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "GIVE LOVE. GET JOY.",
+						"main_message": "Express your true self in holiday style.",
+						"disclaimer": ""
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW"
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "Shop Gifts For Her",
+							"link": "cat8100105",
+							"destination_title": "Gifts For Her"
+						},
+						{
+							"type": "category",
+							"cta": "Shop Gifts For Him",
+							"link": "cat8100104",
+							"destination_title": "Gifts For Him"
+						},
+						{
+							"type": "category",
+							"cta": "Shop Gifts By Interest",
+							"link": "cat8100106",
+							"destination_title": "Gifts By Interest"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"landing"
+					],
+					"image": {
+						"image_src": "20161115_app_a_bogo10",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "BOGO $10 COLLECTION",
+						"main_message": "Limited time only!",
+						"disclaimer": "Details"
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW",
+						"terms": [
+							{
+								"copy_title": "Buy One Aerie® Item And Get One Aerie® Item For $10",
+								"copy": "Beginning November 15, 2016 at 6:00 A.M EST for a limited time only, buy one Aerie® item and get one Aerie® item of equal or lesser value for $10. Must purchase two Aerie® BOGO $10 items to qualify. Offer is valid on aerie.com and in select US and Canada stores. Discount applies to merchandise costs only, not tax and shipping & handling costs. Not applicable toward previously purchased merchandise. Not valid on Aerie Real Obsessed merchandise, Aerie® socks, Aerie® undies, Aerie® clearance merchandise, Gift Cards, and merchandise from these brands: American Crafts, Artisan De Luxe, Audiology, Baggu, Ban.Do, Bass, BC, Beauty For Real, Bed Stu, Big Mouth INC, Birkenstock, Bravado, BTW, CAT Footwear, Clarks, Classy Chargers, Compagnie de Provence, Creative Recreation, Chronicle Books, CoLab, Color Factory, CROWNJWLZ, Define, DIOY, Dr. Martens, Dr. Scholl,  Durango, Dolce Vita, Eastland, Fjallraven, Emoji, EOS,  Formation Brands, Found My Animal, Fred & Friends, Fringe, Glory/Goorin, GOLA, Hachette, Half United, Hang Ten, Heidi Swapp, Henschel, Hunter, IMM, Just Mustard, Living, Keds, Keep It Simple, Kelsi Dagger, Kikkerland, Knock Knock, Knot & Bow, K.Swiss, LAQA,  Laline, Lack of Color, Liberty, LIFE Line, Lulu DK, Luxy Lemon, Make Up Eraser, Marquee Market, Matisse, Meri Meri, Minnetonka, Moorish, Mountain Ocean, Muses & Rebels, New Balance, NPW, Nudestix, Octopus Books, Paddywax, Palladium, Pendleton, PF Flyers, Pinch, PONY, Quadrille, Quay, Reebok, Rosanna, Royal Apothic, Scarlett Kitty, Seychelles, Slant, Sprigs, Street Level, Sun Bum, Sunnylife, Swedish Hasbeens, Talking Tables, Tangle Teezer, Tattly, Teva, Thorogood, Timberland, Tonymoly, Topo, Tretorn, Triple C, Volley, Wallpops, Whish, Wild + Wolf, Wolverine, Woolrich, Word, and Workman."
+							}
+						],
+						"copyright": "© 2023 AEO MANAGEMENT CO. ALL RIGHTS RESERVED."
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "SHOP BRAS & BRALETTES",
+							"link": "cat4840012",
+							"destination_title": "Aerie Bras & Bralettes"
+						},
+						{
+							"type": "category",
+							"cta": "SHOP TOPS",
+							"link": "cat4130031",
+							"destination_title": "Aerie Tops"
+						},
+						{
+							"type": "category",
+							"cta": "SHOP BOTTOMS",
+							"link": "cat4130033",
+							"destination_title": "Aerie Bottoms"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"landing"
+					],
+					"image": {
+						"image_src": "20161103_app_aehp_bogojeans",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "BOGO 50% OFF ALL JEANS",
+						"main_message": "In stores & online.",
+						"disclaimer": "DETAILS"
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW",
+						"terms": [
+							{
+								"copy_title": "Buy A Select Pair of AEO® Jeans And Get A Select Pair of AEO® Jeans For 50% OFF",
+								"copy": "Beginning November 1, 2016 at 6:00 AM EDT for a limited time only, buy a select pair of AEO® jeans and get a select pair of AEO® jeans of equal or lesser value for 50% off. Must purchase two AEO® jeans to qualify. Offer is valid in select US and Canada stores and on ae.com. Discount applies to merchandise costs only, not tax and shipping & handling costs. Not applicable toward previously purchased merchandise. Not valid on AEO® clearance merchandise, Aerie® merchandise, Gift Cards, or merchandise from these brands: AEO APT, American Crafts, Artisan De Luxe, Audiology, Baggu, Ban.Do, Bass, BC, Beauty For Real, Bed Stu, Big Mouth INC, Birkenstock, Bravado, BTW, CAT Footwear, Clarks, Classy Chargers, Compagnie de Provence, Creative Recreation, Chronicle Books, CoLab, Color Factory, CROWNJWLZ, Define, DIOY, Dr. Martens, Dr. Scholl,  Durango, Dolce Vita, Eastland, Fjallraven, Emoji, EOS,  Formation Brands, Found My Animal, Fred & Friends, Fringe, Glory/Goorin, GOLA, Hachette, Half United, Hang Ten, Heidi Swapp, Henschel, Hunter, IMM, Just Mustard, Living, Keds, Keep It Simple, Kelsi Dagger, Kikkerland, Knock Knock, Knot & Bow, K.Swiss, LAQA,  Laline, Lack of Color, Liberty, LIFE Line, Lulu DK, Luxy Lemon, Make Up Eraser, Marquee Market, Matisse, Meri Meri, Minnetonka, Moorish, Mountain Ocean, Muses & Rebels, New Balance, NPW, Nudestix, Octopus Books, Paddywax, Palladium, Pendleton, PF Flyers, Pinch, PONY, Quadrille, Quay, Reebok, Rosanna, Royal Apothic, Scarlett Kitty, Seychelles, Slant, Sprigs, Street Level, Sun Bum, Sunnylife, Swedish Hasbeens, Talking Tables, Tailgate, Tangle Teezer, Tattly, Teva, Thorogood, Timberland, Tonymoly, Topo, Tretorn, Triple C, Volley, Wallpops, Whish, Wild + Wolf, Wolverine, Woolrich, Word, and Workman."
+							}
+						],
+						"copyright": "© 2023 AEO MANAGEMENT CO. ALL RIGHTS RESERVED."
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "SHOP WOMEN",
+							"link": "cat6430042",
+							"destination_title": "Women's Jeans"
+						},
+						{
+							"type": "category",
+							"cta": "SHOP MEN",
+							"link": "cat6430041",
+							"destination_title": "Men's Jeans"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"landing"
+					],
+					"image": {
+						"image_src": "20161110_app_a_newarrivals",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "NEW ARRIVALS",
+						"main_message": "Now online & in stores",
+						"disclaimer": ""
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW"
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "Shop New Arrivals",
+							"link": "cat6400001",
+							"destination_title": "Aerie New Arrivals"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"landing"
+					],
+					"image": {
+						"image_src": "20161103_app_aehp_newarrivals",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "NEW ARRIVALS ARE HERE",
+						"main_message": "In stores & online now.",
+						"disclaimer": ""
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW"
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "SHOP WOMEN",
+							"link": "cat90040",
+							"destination_title": "WOMEN'S NEW ARRIVALS"
+						},
+						{
+							"type": "category",
+							"cta": "SHOP MEN",
+							"link": "cat380149",
+							"destination_title": "MEN'S NEW ARRIVALS"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"women"
+					],
+					"image": {
+						"image_src": "20161103_app_w_newarrivals",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "NEW ARRIVALS ARE HERE",
+						"main_message": "In stores & online now.",
+						"disclaimer": ""
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW"
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "SHOP NOW",
+							"link": "cat90040",
+							"destination_title": "WOMEN'S NEW ARRIVALS"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"women"
+					],
+					"image": {
+						"image_src": "20161103_app_w_bogojeans",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "BOGO 50% OFF ALL JEANS",
+						"main_message": "In stores & online.",
+						"disclaimer": "DETAILS"
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW",
+						"terms": [
+							{
+								"copy_title": "Buy A Select Pair of AEO® Jeans And Get A Select Pair of AEO® Jeans For 50% OFF",
+								"copy": "Beginning November 1, 2016 at 6:00 AM EDT for a limited time only, buy a select pair of AEO® jeans and get a select pair of AEO® jeans of equal or lesser value for 50% off. Must purchase two AEO® jeans to qualify. Offer is valid in select US and Canada stores and on ae.com. Discount applies to merchandise costs only, not tax and shipping & handling costs. Not applicable toward previously purchased merchandise. Not valid on AEO® clearance merchandise, Aerie® merchandise, Gift Cards, or merchandise from these brands: AEO APT, American Crafts, Artisan De Luxe, Audiology, Baggu, Ban.Do, Bass, BC, Beauty For Real, Bed Stu, Big Mouth INC, Birkenstock, Bravado, BTW, CAT Footwear, Clarks, Classy Chargers, Compagnie de Provence, Creative Recreation, Chronicle Books, CoLab, Color Factory, CROWNJWLZ, Define, DIOY, Dr. Martens, Dr. Scholl,  Durango, Dolce Vita, Eastland, Fjallraven, Emoji, EOS,  Formation Brands, Found My Animal, Fred & Friends, Fringe, Glory/Goorin, GOLA, Hachette, Half United, Hang Ten, Heidi Swapp, Henschel, Hunter, IMM, Just Mustard, Living, Keds, Keep It Simple, Kelsi Dagger, Kikkerland, Knock Knock, Knot & Bow, K.Swiss, LAQA,  Laline, Lack of Color, Liberty, LIFE Line, Lulu DK, Luxy Lemon, Make Up Eraser, Marquee Market, Matisse, Meri Meri, Minnetonka, Moorish, Mountain Ocean, Muses & Rebels, New Balance, NPW, Nudestix, Octopus Books, Paddywax, Palladium, Pendleton, PF Flyers, Pinch, PONY, Quadrille, Quay, Reebok, Rosanna, Royal Apothic, Scarlett Kitty, Seychelles, Slant, Sprigs, Street Level, Sun Bum, Sunnylife, Swedish Hasbeens, Talking Tables, Tailgate, Tangle Teezer, Tattly, Teva, Thorogood, Timberland, Tonymoly, Topo, Tretorn, Triple C, Volley, Wallpops, Whish, Wild + Wolf, Wolverine, Woolrich, Word, and Workman."
+							}
+						],
+						"copyright": "© 2023 AEO MANAGEMENT CO. ALL RIGHTS RESERVED."
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "SHOP WOMEN",
+							"link": "cat6430042",
+							"destination_title": "Women's Jeans"
+						},
+						{
+							"type": "category",
+							"cta": "SHOP MEN",
+							"link": "cat6430041",
+							"destination_title": "Men's Jeans"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"women"
+					],
+					"image": {
+						"image_src": "20161103_app_w_weallcan",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "GIVE LOVE. GET JOY.",
+						"main_message": "Express your true self in holiday style.",
+						"disclaimer": ""
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW"
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "Shop Gifts for Her",
+							"link": "cat8100105",
+							"destination_title": "Gifts For Her"
+						},
+						{
+							"type": "category",
+							"cta": "Shop Gifts By Interest",
+							"link": "cat8100106",
+							"destination_title": "Gifts By Interest"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"men"
+					],
+					"image": {
+						"image_src": "20161103_app_m_newarrivals",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "NEW ARRIVALS ARE HERE",
+						"main_message": "In stores & online now.",
+						"disclaimer": ""
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW"
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "SHOP NOW",
+							"link": "cat380149",
+							"destination_title": "MEN'S NEW ARRIVALS"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"men"
+					],
+					"image": {
+						"image_src": "20161103_app_m_bogojeans",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "BOGO 50% OFF ALL JEANS",
+						"main_message": "In stores & online.",
+						"disclaimer": "DETAILS"
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW",
+						"terms": [
+							{
+								"copy_title": "Buy A Select Pair of AEO® Jeans And Get A Select Pair of AEO® Jeans For 50% OFF",
+								"copy": "Beginning November 1, 2016 at 6:00 AM EDT for a limited time only, buy a select pair of AEO® jeans and get a select pair of AEO® jeans of equal or lesser value for 50% off. Must purchase two AEO® jeans to qualify. Offer is valid in select US and Canada stores and on ae.com. Discount applies to merchandise costs only, not tax and shipping & handling costs. Not applicable toward previously purchased merchandise. Not valid on AEO® clearance merchandise, Aerie® merchandise, Gift Cards, or merchandise from these brands: AEO APT, American Crafts, Artisan De Luxe, Audiology, Baggu, Ban.Do, Bass, BC, Beauty For Real, Bed Stu, Big Mouth INC, Birkenstock, Bravado, BTW, CAT Footwear, Clarks, Classy Chargers, Compagnie de Provence, Creative Recreation, Chronicle Books, CoLab, Color Factory, CROWNJWLZ, Define, DIOY, Dr. Martens, Dr. Scholl,  Durango, Dolce Vita, Eastland, Fjallraven, Emoji, EOS,  Formation Brands, Found My Animal, Fred & Friends, Fringe, Glory/Goorin, GOLA, Hachette, Half United, Hang Ten, Heidi Swapp, Henschel, Hunter, IMM, Just Mustard, Living, Keds, Keep It Simple, Kelsi Dagger, Kikkerland, Knock Knock, Knot & Bow, K.Swiss, LAQA,  Laline, Lack of Color, Liberty, LIFE Line, Lulu DK, Luxy Lemon, Make Up Eraser, Marquee Market, Matisse, Meri Meri, Minnetonka, Moorish, Mountain Ocean, Muses & Rebels, New Balance, NPW, Nudestix, Octopus Books, Paddywax, Palladium, Pendleton, PF Flyers, Pinch, PONY, Quadrille, Quay, Reebok, Rosanna, Royal Apothic, Scarlett Kitty, Seychelles, Slant, Sprigs, Street Level, Sun Bum, Sunnylife, Swedish Hasbeens, Talking Tables, Tailgate, Tangle Teezer, Tattly, Teva, Thorogood, Timberland, Tonymoly, Topo, Tretorn, Triple C, Volley, Wallpops, Whish, Wild + Wolf, Wolverine, Woolrich, Word, and Workman."
+							}
+						],
+						"copyright": "© 2023 AEO MANAGEMENT CO. ALL RIGHTS RESERVED."
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "SHOP WOMEN",
+							"link": "cat6430042",
+							"destination_title": "Women's Jeans"
+						},
+						{
+							"type": "category",
+							"cta": "SHOP MEN",
+							"link": "cat6430041",
+							"destination_title": "Men's Jeans"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"men"
+					],
+					"image": {
+						"image_src": "20161103_app_m_weallcan",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "GIVE LOVE. GET JOY.",
+						"main_message": "Express your true self in holiday style.",
+						"disclaimer": ""
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW"
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "Shop Gifts for Him",
+							"link": "cat8100104",
+							"destination_title": "Gifts For Him"
+						},
+						{
+							"type": "category",
+							"cta": "Shop Gifts By Interest",
+							"link": "cat8100106",
+							"destination_title": "Gifts By Interest"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"jeans"
+					],
+					"image": {
+						"image_src": "20161103_app_j_bogojeans",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "BOGO 50% OFF ALL JEANS",
+						"main_message": "In stores & online.",
+						"disclaimer": "DETAILS"
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW",
+						"terms": [
+							{
+								"copy_title": "Buy A Select Pair of AEO® Jeans And Get A Select Pair of AEO® Jeans For 50% OFF",
+								"copy": "Beginning November 1, 2016 at 6:00 AM EDT for a limited time only, buy a select pair of AEO® jeans and get a select pair of AEO® jeans of equal or lesser value for 50% off. Must purchase two AEO® jeans to qualify. Offer is valid in select US and Canada stores and on ae.com. Discount applies to merchandise costs only, not tax and shipping & handling costs. Not applicable toward previously purchased merchandise. Not valid on AEO® clearance merchandise, Aerie® merchandise, Gift Cards, or merchandise from these brands: AEO APT, American Crafts, Artisan De Luxe, Audiology, Baggu, Ban.Do, Bass, BC, Beauty For Real, Bed Stu, Big Mouth INC, Birkenstock, Bravado, BTW, CAT Footwear, Clarks, Classy Chargers, Compagnie de Provence, Creative Recreation, Chronicle Books, CoLab, Color Factory, CROWNJWLZ, Define, DIOY, Dr. Martens, Dr. Scholl,  Durango, Dolce Vita, Eastland, Fjallraven, Emoji, EOS,  Formation Brands, Found My Animal, Fred & Friends, Fringe, Glory/Goorin, GOLA, Hachette, Half United, Hang Ten, Heidi Swapp, Henschel, Hunter, IMM, Just Mustard, Living, Keds, Keep It Simple, Kelsi Dagger, Kikkerland, Knock Knock, Knot & Bow, K.Swiss, LAQA,  Laline, Lack of Color, Liberty, LIFE Line, Lulu DK, Luxy Lemon, Make Up Eraser, Marquee Market, Matisse, Meri Meri, Minnetonka, Moorish, Mountain Ocean, Muses & Rebels, New Balance, NPW, Nudestix, Octopus Books, Paddywax, Palladium, Pendleton, PF Flyers, Pinch, PONY, Quadrille, Quay, Reebok, Rosanna, Royal Apothic, Scarlett Kitty, Seychelles, Slant, Sprigs, Street Level, Sun Bum, Sunnylife, Swedish Hasbeens, Talking Tables, Tailgate, Tangle Teezer, Tattly, Teva, Thorogood, Timberland, Tonymoly, Topo, Tretorn, Triple C, Volley, Wallpops, Whish, Wild + Wolf, Wolverine, Woolrich, Word, and Workman."
+							}
+						],
+						"copyright": "© 2023 AEO MANAGEMENT CO. ALL RIGHTS RESERVED."
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "SHOP WOMEN",
+							"link": "cat6430042",
+							"destination_title": "Women's Jeans"
+						},
+						{
+							"type": "category",
+							"cta": "SHOP MEN",
+							"link": "cat6430041",
+							"destination_title": "Men's Jeans"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"jeans"
+					],
+					"image": {
+						"image_src": "20161103_app_j_hemtrends",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "HEM TRENDS\t",
+						"main_message": "Take your jeans up a notch.",
+						"disclaimer": ""
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW"
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "Shop the Trend",
+							"link": "cat7250007",
+							"destination_title": "Hem Trends"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"jeans"
+					],
+					"image": {
+						"image_src": "20161103_app_j_blackandgrey",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "BLACK + GREY DENIM",
+						"main_message": "Colors you can't go wrong in.",
+						"disclaimer": ""
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW"
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "Shop the Trend",
+							"link": "cat8060036",
+							"destination_title": "Black + Grey Denim"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"aerie"
+					],
+					"image": {
+						"image_src": "20161115_app_a_bogo10",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "BOGO $10 COLLECTION",
+						"main_message": "Limited time only!",
+						"disclaimer": "Details"
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW",
+						"terms": [
+							{
+								"copy_title": "Buy One Aerie® Item And Get One Aerie® Item For $10",
+								"copy": "Beginning November 15, 2016 at 6:00 A.M EST for a limited time only, buy one Aerie® item and get one Aerie® item of equal or lesser value for $10. Must purchase two Aerie® BOGO $10 items to qualify. Offer is valid on aerie.com and in select US and Canada stores. Discount applies to merchandise costs only, not tax and shipping & handling costs. Not applicable toward previously purchased merchandise. Not valid on Aerie Real Obsessed merchandise, Aerie® socks, Aerie® undies, Aerie® clearance merchandise, Gift Cards, and merchandise from these brands: American Crafts, Artisan De Luxe, Audiology, Baggu, Ban.Do, Bass, BC, Beauty For Real, Bed Stu, Big Mouth INC, Birkenstock, Bravado, BTW, CAT Footwear, Clarks, Classy Chargers, Compagnie de Provence, Creative Recreation, Chronicle Books, CoLab, Color Factory, CROWNJWLZ, Define, DIOY, Dr. Martens, Dr. Scholl,  Durango, Dolce Vita, Eastland, Fjallraven, Emoji, EOS,  Formation Brands, Found My Animal, Fred & Friends, Fringe, Glory/Goorin, GOLA, Hachette, Half United, Hang Ten, Heidi Swapp, Henschel, Hunter, IMM, Just Mustard, Living, Keds, Keep It Simple, Kelsi Dagger, Kikkerland, Knock Knock, Knot & Bow, K.Swiss, LAQA,  Laline, Lack of Color, Liberty, LIFE Line, Lulu DK, Luxy Lemon, Make Up Eraser, Marquee Market, Matisse, Meri Meri, Minnetonka, Moorish, Mountain Ocean, Muses & Rebels, New Balance, NPW, Nudestix, Octopus Books, Paddywax, Palladium, Pendleton, PF Flyers, Pinch, PONY, Quadrille, Quay, Reebok, Rosanna, Royal Apothic, Scarlett Kitty, Seychelles, Slant, Sprigs, Street Level, Sun Bum, Sunnylife, Swedish Hasbeens, Talking Tables, Tangle Teezer, Tattly, Teva, Thorogood, Timberland, Tonymoly, Topo, Tretorn, Triple C, Volley, Wallpops, Whish, Wild + Wolf, Wolverine, Woolrich, Word, and Workman."
+							}
+						],
+						"copyright": "© 2023 AEO MANAGEMENT CO. ALL RIGHTS RESERVED."
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "SHOP BRAS & BRALETTES",
+							"link": "cat4840012",
+							"destination_title": "Aerie Bras & Bralettes"
+						},
+						{
+							"type": "category",
+							"cta": "SHOP TOPS",
+							"link": "cat4130031",
+							"destination_title": "Aerie Tops"
+						},
+						{
+							"type": "category",
+							"cta": "SHOP BOTTOMS",
+							"link": "cat4130033",
+							"destination_title": "Aerie Bottoms"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"aerie"
+					],
+					"image": {
+						"image_src": "20161110_app_a_newarrivals",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "NEW ARRIVALS",
+						"main_message": "Now online & in stores",
+						"disclaimer": ""
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW"
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "Shop New Arrivals",
+							"link": "cat6400001",
+							"destination_title": "Aerie New Arrivals"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"aerie"
+					],
+					"image": {
+						"image_src": "20161110_app_a_giftguide",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "REAL GIFTS FOR EVERY GIRL",
+						"main_message": "Gift guide is here!",
+						"disclaimer": ""
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW"
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "Shop Aerie Gifts",
+							"link": "cat7630041",
+							"destination_title": "Aerie Gifts"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"aerie"
+					],
+					"image": {
+						"image_src": "20161110_app_a_satinpjs",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "RISE & SHINE!",
+						"main_message": "New Satin PJs",
+						"disclaimer": ""
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW"
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "SHOP NOW",
+							"link": "cat6460089",
+							"destination_title": "AERIE SLEEPWEAR"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"tailgate"
+					],
+					"image": {
+						"image_src": "20160922_app_hp_tailgate",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "WELCOME TO TAILGATE",
+						"main_message": "Designed for game day and every day.",
+						"disclaimer": ""
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW"
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "SHOP NOW",
+							"link": "cat8050004",
+							"destination_title": "Tailgate"
+						}
+					]
+				},
+				{
+					"devices": [
+						"ios",
+						"android"
+					],
+					"locations": [
+						"clearance"
+					],
+					"image": {
+						"image_src": "20161103_app_hp_aeclearance",
+						"image_params": "?qtl=60"
+					},
+					"copy": {
+						"headline": "60% OFF CLEARANCE",
+						"main_message": "In stores & online through Thursday.",
+						"disclaimer": "DETAILS"
+					},
+					"secondary_copy": {
+						"cta": "SHOP NOW",
+						"terms": [
+							{
+								"copy_title": "60% OFF CLEARANCE",
+								"copy": "EXCLUDES AERIE, JEANS, UNDERWEAR & OTHER ITEMS. PRICES AS MARKED. "
+							}
+						],
+						"copyright": "© 2023 AEO MANAGEMENT CO. ALL RIGHTS RESERVED."
+					},
+					"action_items": [
+						{
+							"type": "category",
+							"cta": "SHOP WOMEN",
+							"link": "cat6470590",
+							"destination_title": "WOMEN'S CLEARANCE"
+						},
+						{
+							"type": "category",
+							"cta": "SHOP MEN",
+							"link": "cat6470582",
+							"destination_title": "MEN'S CLEARANCE"
+						}
+					]
+				}
+			]
+		}
+	}
+}
