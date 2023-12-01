@@ -1,0 +1,44 @@
+.content {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background-color: #fff;
+}
+.pano {
+  z-index: 0;
+  position: relative;
+  width: 1010px;
+  height:544px;
+  margin: 0 auto;
+}
+.pano .warning { 
+  font-weight: bold;
+}
+.panoUnsupported {
+  position: relative;
+  width: 1010px;
+  height: 544px;
+  padding-top: 5%;
+  text-align: center;
+  /*background: url(images/fallBack.jpg) center top no-repeat transparent;*/
+}
+.panoMens,
+.panoWomens {
+  display: block;
+  position: absolute;
+  width: 67px;
+  height: 23px;
+  left: 416px;
+  top: 326px;
+}
+.panoWomens {
+  left: 486px;
+}
+/* fix for scroll bars on webkit & Mac OS X Lion */ 
+/*::-webkit-scrollbar {
+  background-color: rgba(0,0,0,0.5);
+  width: 0.75em;
+}
+::-webkit-scrollbar-thumb {
+  background-color:  rgba(255,255,255,0.5);
+}*/
