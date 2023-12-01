@@ -75,11 +75,6 @@
       days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
       auto_save = window.setInterval(save, 300000);
 function updateHeight(){
-// console.log('window height',$(window).outerHeight());
-// console.log('header height',$('#header').outerHeight());
-// console.log('nav height',$('#nav').outerHeight());
-// console.log('footer height',$('#footer').outerHeight());
-// console.log($(window).outerHeight() + ' - '+ ($('#header').outerHeight() + $('#nav').outerHeight() + $('#footer').outerHeight()) + ' = ' + ($(window).outerHeight() - $('#header').outerHeight() - $('#nav').outerHeight() - $('#footer').outerHeight()) +'px');
   $(generator_wrap).css('height',+$(window).outerHeight() - $('#header').outerHeight() - $('#nav').outerHeight() - $('#footer').outerHeight() +'px');
 }
 
