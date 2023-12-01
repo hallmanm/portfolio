@@ -1,0 +1,142 @@
+.fb_dialog{position:fixed !important}
+.contentContainerWide{overflow:hidden}
+.modalContent #content{display:block}
+.theRealContentContainer{width:100%}
+#liveYourLifeHeader{background:url("../images/header.jpg") top center no-repeat #00142e;position:relative;height:88px;border-bottom:8px solid #fbbe25}
+.nav span,.enlarge span,.closeFullView span,.widgetUpBtn span,.widgetDownBtn span,.lylBtn .share_button span,.muteBtn span,.closeWidget span,.lylDirections span{background:url("../images/sprite.png") top center no-repeat transparent}
+.btnContainer{position:relative;width:1010px;margin:0 auto}
+.btnContainer a{position:absolute;top:47px;left:831px;line-height:22px;text-decoration:none}
+.btnContainer a span{text-align:center;text-transform:uppercase;display:block;height:22px;width:138px;background-color:#fff;color:#001c43;font-size:12px}
+.btnContainer a:hover span{background-color:#001c43;color:#fff}
+#liveYourLife{position:relative;overflow:hidden;background-color:#fbbe25}
+.row{width:100%;margin-bottom:5px}
+.imgRowCont{position:relative;overflow:hidden}
+.lylWidget,.lylWidgetCont,.lylWidgetOpen{-o-transition:1s;-ms-transition:1s;-moz-transition:1s;-webkit-transition:1s;transition:1s}
+.lylWidget{position:absolute;opacity:0;z-index:2;top:10%;color:#fff}
+.activeRow .lylWidget{opacity:1}
+.lylWidgetCont{position:relative;left:-300px;width:300px;height:65px;background:#00142e;background:rgba(0,20,46,0.8)}
+.no-touch .lylWidgetCont{height:50px;width:235px;left:-241px}
+.lylWidgetOpen .lylWidgetCont{left:0}
+.lylWidgetNav{float:left}
+.lylWidgetNames{display:none}
+.widgetUpBtn,.widgetDownBtn{width:90px;height:32px}
+.widgetUpBtn span,.widgetDownBtn span{position:relative;display:block;top:11px;height:0;width:43px;margin:0 auto;padding-top:11px;overflow:hidden}
+.widgetUpBtn span{background-position:-568px 0}
+.widgetDownBtn  span{background-position:-568px -13px}
+.no-touch .lylWidgetNames,.no-touch .widgetUpBtn,.no-touch .widgetDownBtn{display:block;width:95px;margin:0 5px}
+.no-touch .widgetUpBtn,.no-touch .widgetDownBtn{height:15px}
+.no-touch .widgetUpBtn span,.no-touch .widgetDownBtn span{position:relative;display:block;top:4px;height:0;width:25px;margin:0 auto;padding-top:7px;overflow:hidden}
+.no-touch .widgetUpBtn span{background-position:-464px -94px}
+.no-touch .widgetUpBtn:hover span{background-position:-464px -103px}
+.no-touch .widgetDownBtn  span{background-position:-492px -94px}
+.no-touch .widgetDownBtn:hover span{background-position:-492px -103px}
+.widgetRowNamePrev,.widgetRowName,.widgetRowNameNext{overflow:hidden;font-size:16px;font-weight:bold;color:#fff;text-align:center;text-transform:uppercase}
+.lylWidgetCont .widgetRowNamePrev,.lylWidgetCont .widgetRowNameNext{display:none;color:#fbbe25}
+.prevModel .widgetRowNamePrev,.nextModel .widgetRowNameNext{display:block}
+.prevModel .widgetRowName,.prevModel .widgetRowNameNext,.nextModel .widgetRowName,.nextModel .widgetRowNamePrev{display:none}
+.lylWidgetBtn,.lylWidgetOpen .lylWidgetBtn{-o-transition:1s;-ms-transition:1s;-moz-transition:1s;-webkit-transition:1s;transition:1s}
+.lylWidgetBtn{position:absolute;z-index:-1;background-color:#00142e;left:0;width:20px;height:64px;line-height:64px;font-size:20px;text-align:center;font-weight:bold}
+.lylWidgetOpen .lylWidgetBtn{left:-20px}
+.lylWidgetBtn:hover{color:#fbbe25}
+.lylWidgetBtn,.widgetUpBtn,.widgetDownBtn,.lylBtn,.lylTwitterBtn,.lylBackToTopBtn,.lylYouTube,.enlarge,.closeFullView,.scalable,.nav{cursor:pointer}
+.lylBtn{float:left;margin:10px 5px}
+.lylBtn .share_button span,.muteBtn span,.closeWidget span{position:relative;display:block;width:45px;height:0;padding-top:45px;overflow:hidden}
+.lylfbBtn .share_button span{background-position:-472px -46px}
+.lylTwitterBtn .share_button span{background-position:-521px 0}
+.lylPinterestBtn .share_button span{background-position:-521px -48px}
+.no-touch .lylBtn{float:left;height:50px;width:25px;margin:0}
+.no-touch .lylBtn .share_button,.no-touch .muteBtn,.no-touch .closeWidget{display:block;height:50px;width:25px}
+.no-touch .lylBtn .share_button span,.no-touch .muteBtn span,.no-touch .closeWidget span{position:relative;display:block;top:14px;left:2px;width:21px;height:0;padding-top:21px;overflow:hidden}
+.muteBtn{display:none}
+.no-touch .muteBtn{margin-left:10px;display:block}
+.no-touch .lylfbBtn .share_button span{background-position:-360px -46px}
+.no-touch .lylfbBtn .share_button:hover span{background-position:-360px -68px}
+.no-touch .fullViewBtnCont .lylfbBtn .share_button:hover span{background-position:-360px -90px}
+.no-touch .lylTwitterBtn span{background-position:-382px -46px}
+.no-touch .lylTwitterBtn a:hover span{background-position:-382px -68px}
+.no-touch .fullViewBtnCont .lylTwitterBtn a:hover span{background-position:-382px -90px}
+.no-touch .lylPinterestBtn span{background-position:-404px -46px}
+.no-touch .lylPinterestBtn a:hover span{background-position:-404px -68px}
+.no-touch .fullViewBtnCont .lylPinterestBtn a:hover span{background-position:-404px -90px}
+.lylWidgetCont .muteBtn span{background-position:-426px -46px}
+.lylWidgetCont .muteBtn:hover span{background-position:-449px -46px}
+.lylWidgetCont .vidMuted span{background-position:-426px -68px}
+.lylWidgetCont .vidMuted:hover span{background-position:-449px -68px}
+.lylWidgetCont .closeWidget span{background-position:-568px -26px}
+.lylWidgetCont .closeWidget span{width:22px;padding-top:22px}
+.lylWidgetCont .closeWidget{position:absolute;left:277px;width:22px;height:65px;margin:0}
+.no-touch .lylWidgetCont .closeWidget{left:218px;width:16px;height:50px}
+.lylWidgetCont .closeWidget span{top:1px;left:0}
+.no-touch .lylWidgetCont .closeWidget span{width:16px;padding-top:16px}
+.no-touch .lylWidgetCont .closeWidget span{background-position:-427px -90px}
+.no-touch .lylWidgetCont .closeWidget:hover span{background-position:-446px -90px}
+.lylBackToTopBtn{position:absolute;top:65px;left:0;width:300px;background:#fff;background:rgba(255,255,255,0.8);color:#00142e;text-align:center;text-transform:uppercase;font-weight:bold;font-size:15px;padding:2px 0}
+.no-touch .lylBackToTopBtn{top:50px;width:235px;font-size:9px}
+.lylBackToTopBtn:hover{background-color:#fbbe25}
+.nav{position:absolute;display:none;z-index:1;top:50%;height:100px;width:75px;-o-transition:opacity 1s;-ms-transition:opacity 1s;-moz-transition:opacity 1s;-webkit-transition:opacity 1s;transition:opacity 1s}
+.no-touch .nav{opacity:0}
+.nav span{display:block;overflow:hidden;position:absolute;top:20px;padding-top:60px;height:0;width:29px;color:#fabe26}
+.activeRow .nav{opacity:1}
+.arrowLeft,.arrowLeft span{left:0}
+.arrowRight,.arrowRight span{right:0}
+.arrowLeft span{background-position:-30px -46px}
+.hoveredLeft span,.arrowLeft:hover span{background-position:-103px -46px}
+.arrowRight span{background-position:0 -46px}
+.hoveredRight span,.arrowRight:hover span{background-position:-73px -46px}
+.lylDirections{display:none}
+.no-touch .lylDirections{position:absolute;display:block;height:68px;width:100%;top:50%;margin-top:16px;background:#00142e;background:rgba(0,20,46,0.8)}
+.no-touch .lylDirections span{position:relative;display:block;background-position:0 0;overflow:hidden;top:10px;padding-top:43px;height:0;width:520px;margin:0 auto}
+.visRow{width:100%;overflow:visible;white-space:nowrap;position:relative;left:0}
+.media{display:inline-block;position:relative}
+.media img,.media video{display:block}
+.enlarge,.closeFullView{display:block;position:absolute;z-index:1;top:0;right:0}
+.enlarge span,.closeFullView span{display:block;overflow:hidden;padding-top:54px;height:0;width:51px;font-size:50px;color:#fabe26}
+.closeFullView,.closeFullView span{top:0;right:0}
+.closeFullView span{position:absolute}
+.closeFullView{height:125px;width:125px}
+.enlarge span{background-position:-144px -46px}
+.enlarge:hover span{background-position:-197px -46px}
+.closeFullView span{background-position:-250px -46px}
+.closeFullView:hover span{background-position:-305px -46px}
+.bio{position:absolute;text-align:center;overflow:hidden;bottom:9%;left:13%;width:87%;color:#fff;text-transform:uppercase}
+.buttons,.bioButton{transition:.5s;-o-transition:.5s;-ms-transition:.5s;-moz-transition:.5s;-webkit-transition:.5s}
+.buttons,.fullViewShop{position:relative;display:block;white-space:normal;width:203px}
+.fullViewShop{width:150px;text-align:center;text-transform:uppercase}
+.no-touch .fullViewShop{width:99px}
+.fullViewShop a{display:block;width:150px;height:45px;line-height:45px;text-decoration:none}
+.fullViewShop span{display:block;background-color:#fff;color:#001c43;font-size:15px;font-weight:bold}
+.bioButton,.no-touch .fullViewShop a{line-height:15px;height:15px;width:99px;text-decoration:none}
+.no-touch .fullViewShop a{display:block;height:20px;line-height:20px}
+.buttons a span,.no-touch .fullViewShop span{display:block;background-color:#fff;color:#001c43;font-size:9px;font-weight:bold}
+.buttons a:hover span,.fullViewShop a:hover span{background-color:#001c43;color:#fff}
+.link1{float:left}
+.link2{float:right}
+.fullView{position:absolute;display:none;z-index:102;min-width:1010px}
+.closeFullViewOverlay{position:absolute;z-index:-1;background:#000;background:rgba(0,0,0,0.8);width:100% !important}
+.fullImgCont{position:relative}
+.fullViewBtnCont{position:absolute;left:11%;top:22%}
+.no-touch .fullViewBtnCont{position:absolute;left:15.5%;top:22%}
+.fullViewShop{float:left;margin-right:5px}
+.fullViewBtnCont .lylSocialBtns{position:relative;float:right;top:-10px}
+.no-touch .fullViewBtnCont .lylSocialBtns{top:-15px}
+@media only screen and (min-width: 1200px){.buttons{width:241px}
+.bioButton{line-height:20px;height:20px;width:118px}
+.buttons a span{font-size:11px}
+.no-touch .fullViewBtnCont{left:16.5%;top:22%}
+}@media only screen and (min-width: 1400px){.buttons{width:282px}
+.bioButton{line-height:25px;height:25px;width:138px}
+.buttons a span{font-size:14px}
+.no-touch .fullViewBtnCont{left:17.5%;top:22%}
+}@media only screen and (min-width: 1600px){.buttons{width:320px}
+.bioButton{line-height:27px;height:27px;width:157px}
+.buttons a span{font-size:16px}
+.no-touch .fullViewBtnCont{left:18.5%;top:22%}
+}@media only screen and (min-width: 1800px){.buttons{width:361px}
+.bioButton{line-height:30px;height:30px;width:177px}
+.buttons a span{font-size:18px}
+.no-touch .fullViewBtnCont{left:19%;top:22%}
+}@media only screen and (min-width: 2400px){.buttons{width:480px}
+.bioButton{line-height:40px;height:40px;width:235px}
+.buttons a span{font-size:20px}
+.no-touch .fullViewBtnCont{left:20.5%;top:22%}
+}.mejs-overlay-play{width:100%;height:100%}
