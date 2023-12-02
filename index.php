@@ -30,7 +30,7 @@
   	<div class="preview col-xs-12 col-md-4">
   		<img class="hidden-xs hidden-sm" src="/images/thumbs/awo_lg.jpg"/>
       <img class="hidden-md hidden-lg" src="/images/thumbs/awo_sm.jpg"/>
-      <div class="caption">Analytics &amp; Web Optimization</div>
+      <div class="caption hidden-xs hidden-sm">Analytics &amp; Web Optimization</div>
   	</div>
   </div>
 
