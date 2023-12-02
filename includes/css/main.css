@@ -266,7 +266,7 @@ h4{
   margin-left:5px;
   font-size: 12px;
   font-weight: bold;
-  color: #fff;
+  color: #fbf7f5;
   background: #444;
 }
 ul{
@@ -292,8 +292,21 @@ ul{
   margin-bottom:50px;
 }
 .caption{
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+  padding: 2px 10px;
   font-size:10px;
+  color: #444;
+  background-color: #fbf7f5;
+  box-shadow: -1px -1px 1px 0px rgba(68,68,68,0.5);
+}
+.info-section .caption{
+  position: relative;
+  right: unset;
+  font-weight: bold;
   text-align: center;
+  box-shadow: none;
 }
 .code-link{
   display: inline-block;
@@ -308,12 +321,6 @@ h3 .code-link{
 }
 .award{
   padding:5px;
-}
-.caption{
-  margin-top:10px;
-}
-.info-section .caption{
-  font-weight: bold;
 }
 .name{
   font-weight: bold;
@@ -470,6 +477,14 @@ h3 .code-link{
 .chatgpt-markdown{
   text-align: center;
 }
+@media (max-width:991px){
+  .block-md{
+    display: block;
+  }
+  .copy{
+    margin-top:10px;
+  }
+}
 @media (max-width:767px){
   h1,h2{
     text-align: center!important;
@@ -488,11 +503,6 @@ h3 .code-link{
     margin: 0 auto;
   }
   .timeframe{
-    display: block;
-  }
-}
-@media (max-width:991px){
-  .block-md{
     display: block;
   }
 }
