@@ -31,30 +31,7 @@
   </head>
   <body>
     <div id="header" class="header">
-      <div class="mwh-wrap">
-        <a class="mwh" href="/">
-          <div class="fill"></div>
-          <div class="letters">
-            <div class="letter m">
-              <div class="bar pl pillar"></div>
-              <div class="bar ml"></div>
-              <div class="bar mr"></div>
-              <div class="bar pr pillar"></div>
-            </div>
-            <div class="letter w">
-              <div class="bar pl pillar"></div>
-              <div class="bar wl"></div>
-              <div class="bar wr"></div>
-              <div class="bar pr pillar"></div>
-            </div>
-            <div class="letter h">
-              <div class="bar pl pillar"></div>
-              <div class="bar hc"></div>
-              <div class="bar pr pillar"></div>
-            </div>
-          </div>
-        </a>
-      </div>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . "/includes/logo.php"); ?>
       <nav id="nav">
         <a href="/">MWH</a> | <a href="/projects">Projects</a> | <a href="/resume">Resume</a> | <a href="https://www.linkedin.com/in/hallmanm" target="_blank">Contact</a>
       </nav>

@@ -1,6 +1,4 @@
-<?php
-  include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php");
-?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 			
 <div class="row info-section">
 	<div class="preview col-xs-6 col-xs-offset-3 col-sm-push-8 col-sm-4 col-sm-offset-0">
