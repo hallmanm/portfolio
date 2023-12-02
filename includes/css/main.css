@@ -156,7 +156,7 @@ a:hover{
   box-sizing:content-box;
   width: 100%;
   animation-name: hc;
-  border-bottom: 0.5px solid #fff;
+/*  border-bottom: 0.5px solid #fff;*/
 }
 .letters,.pr,.pl,.m,.ml,.mr,.w,.wl,.wr,.h,.hc{
   animation-delay: 0.8s;
