@@ -5,7 +5,7 @@
 <div class="row info-section">
 	<div class="preview col-xs-6 col-xs-offset-3 col-sm-push-8 col-sm-4 col-sm-offset-0">
     <img src="/images/linkedin/headshot_bw_web.jpg"/>
-    <div class="caption"><span class="block-md">Sr. Engineering Manager</span><span class="hidden-xs hidden-sm"> | </span><span class="block-md">UI Engineer</span></div>
+    <div class="caption centered"><span class="block-md">Sr. Engineering Manager</span><span class="hidden-xs hidden-sm"> | </span><span class="block-md">UI Engineer</span></div>
   </div>
   <div class="copy col-xs-12 col-sm-pull-4 col-sm-8">
 		<h1><span class="logo"><img src="/images/logos/mwh.png"/></span>Michael <span class="block-sm">W</span> Hallman</h1>
@@ -271,7 +271,7 @@
   <div class="row sub-section">
     <div class="preview col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
       <img class="circle" src="/images/linkedin/mackenzie.jpg"/>
-      <div class="caption">
+      <div class="caption centered">
         <div class="name">Mackenzie Dunn</div>
         <div class="title">Associate Manager - Design</div>
         <div class="company">American Eagle Outfitters</div>
@@ -285,7 +285,7 @@
   <div class="row sub-section">
     <div class="preview col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
       <img class="circle" src="/images/linkedin/ashley.jpg"/>
-      <div class="caption">
+      <div class="caption centered">
         <div class="name">Ashley Dickey</div>
         <div class="title">Lead Product Manager</div>
         <div class="company">American Eagle Outfitters</div>
@@ -299,7 +299,7 @@
   <div class="row sub-section">
     <div class="preview col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
       <img class="circle" src="/images/linkedin/lyndsay.jpg"/>
-      <div class="caption">
+      <div class="caption centered">
         <div class="name">Lyndsay Molinaro</div>
         <div class="title">Sr. Manager of Portfolio and Release Management</div>
         <div class="company">American Eagle Outfitters</div>
@@ -313,7 +313,7 @@
   <div class="row sub-section">
     <div class="preview col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
       <img class="circle" src="/images/linkedin/shawn.jpg"/>
-      <div class="caption">
+      <div class="caption centered">
         <div class="name">Shawn Hazen</div>
         <div class="title">Manager Mobile Engineering</div>
         <div class="company">American Eagle Outfitters</div>
@@ -327,7 +327,7 @@
   <div class="row sub-section">
     <div class="preview col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
       <img class="circle" src="/images/linkedin/nate.jpg"/>
-      <div class="caption">
+      <div class="caption centered">
         <div class="name">Nate Jara</div>
         <div class="title">Director - Web and Mobile Engineering</div>
         <div class="company">American Eagle Outfitters</div>

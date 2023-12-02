@@ -301,12 +301,14 @@ ul{
   background-color: #fbf7f5;
   box-shadow: -1px -1px 1px 0px rgba(68,68,68,0.5);
 }
-.info-section .caption{
+.caption.centered{
   position: relative;
   right: unset;
-  font-weight: bold;
   text-align: center;
   box-shadow: none;
+}
+.info-section .caption{
+  font-weight: bold;
 }
 .code-link{
   display: inline-block;
