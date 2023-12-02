@@ -172,6 +172,7 @@
     <div class="preview col-xs-12 col-md-4">
       <img class="hidden-xs hidden-sm" src="/images/thumbs/cms_lg.jpg"/>
       <img class="hidden-md hidden-lg" src="/images/thumbs/cms_sm.jpg"/>
+      <div class="caption">Headless CMS</div>
     </div>
   </div>
 
