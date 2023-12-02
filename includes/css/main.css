@@ -61,8 +61,7 @@ a:hover{
 }
 .mwh{
   position: absolute;
-  width: 90%;
-  margin-left:5%;
+  width: 100%;
 }
 .fill{
   margin-top:25%;
@@ -183,12 +182,12 @@ a:hover{
   100%{opacity:0;rotate:-90deg;}
 }
 @keyframes m {
-  5%{top:47%;}
-  10%{top:47%;}
+  5%{top:47%;margin-left:0;}
+  10%{top:47%;margin-left:6.3333%;}
   40%{top:20%;}
   45%{left:0;}
   55%{left:0;}
-  100%{top:20%;left:33.3333%;}
+  100%{top:20%;margin-left:6.3333%;left:33.3333%;}
 }
 @keyframes ml {
   5%{rotate:45deg;}
