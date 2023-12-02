@@ -442,17 +442,25 @@ h3 .code-link{
   height: 100%;
   padding: 20px;
   background-color: #444;
+  border: 3px solid #444;
+  transition: background-color 0.3s ease-out;
+}
+.card-link a:hover{
+  background-color:#fbf7f5;
 }
 .card-link span{
   display: inline-block;
   position: absolute;
-  bottom: 14px;
-  left: 25px;
+  bottom: 17px;
+  left: 27px;
   width: 100%;
   rotate: -90deg;
   transform-origin: left;
   font-size:10px;
   color:#fbf7f5;
+}
+.card-link a:hover span{
+  color:#444;
 }
 .project{
   float:none;
