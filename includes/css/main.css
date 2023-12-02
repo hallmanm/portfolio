@@ -484,8 +484,13 @@ h3 .code-link{
     display: block;
   }
 }
+@media (max-width:991px){
+  .block-md{
+    display: block;
+  }
+}
 @media (max-width:470px){
-  .w{
+  .block-sm{
     display: block;
   }
 }

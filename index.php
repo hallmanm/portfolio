@@ -5,10 +5,10 @@
 <div class="row info-section">
 	<div class="preview col-xs-6 col-xs-offset-3 col-sm-push-8 col-sm-4 col-sm-offset-0">
     <img src="/images/linkedin/headshot_bw_web.jpg"/>
-    <div class="caption">Sr. Engineering Manager | UI Engineer</div>
+    <div class="caption"><span class="block-md">Sr. Engineering Manager</span><span class="hidden-xs hidden-sm"> | </span><span class="block-md">UI Engineer</span></div>
   </div>
   <div class="copy col-xs-12 col-sm-pull-4 col-sm-8">
-		<h1><span class="logo"><img src="/images/logos/mwh.png"/></span>Michael <span class="w">W</span> Hallman</h1>
+		<h1><span class="logo"><img src="/images/logos/mwh.png"/></span>Michael <span class="block-sm">W</span> Hallman</h1>
 		<p>Hello! With over a decade in the industry, I have found my passion to center around all things experimentation. Whether it's writing tests, building experimentation programs/teams, guiding in-house solutions, or implementing enterprise-level tools, the AB testing world consistently keeps me engaged.</p>
     <p>However, that's just one aspect of my experience. This portfolio provides a glimpse into my journey, highlighting a few of my key achievements that have shaped my professional career.</p>
     <a class="connect" href="https://www.linkedin.com/in/hallmanm/" target="_blank"><span class="logo"><img src="/images/logos/in.png"/></span>Let's Connect!</a>
