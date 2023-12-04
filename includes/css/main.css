@@ -307,6 +307,7 @@ h3 .code-link{
   padding: 50px 5px;
   background-color: #fff;
   border:1px solid #444;
+  overflow: hidden;
 }
 .chatgpt-markdown{
   text-align: center;
