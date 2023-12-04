@@ -30,24 +30,6 @@
       <p>The culmination of persistent efforts and proven success saw the experimentation team evolve into a fully staffed program, boasting a diverse and skilled team of over 20 resources. This growth not only reflected the program's success but also underscored its integral role within AEO's overall strategy.</p>
       <p>My tenure at AEO was marked by the strategic establishment and growth of the experimentation team, showcasing my ability to navigate challenges, communicate value, and drive transformative change within a corporate setting. This journey stands as a testament to my leadership, strategic vision, and dedication to fostering innovation within organizations.</p>
   	</div>
-  	
-  </div>
-
-  <div class="row sub-section">
-    <h3>Process Improvement<a href="/projects/template-generator/">See it in action!</a></h3>
-    <div class="preview col-md-push-8 col-md-4">
-      <img class="hidden-xs hidden-sm" src="/images/thumbs/master_module_lg.jpg"/>
-      <img class="hidden-md hidden-lg" src="/images/thumbs/master_module_sm.jpg"/>
-      <div class="caption">Master Module</div>
-    </div>
-    <div class="copy col-md-pull-4 col-md-8">
-      <p>As a pivotal stakeholder in the inaugural Content Management System (CMS) implementation, Oracle WCS, I keenly understood the challenges associated with traditional CMS platforms. The transition to a headless CMS, specifically Contentstack, presented an opportunity to address a significant pain point from the legacy platform – design template flexibility.</p>
-      <p>Under Oracle WCS, the marketing messages were constrained by a fixed set of content templates, leading to extensive deployment times for new templates or updates. The process involved navigating through design, WCS development, and UI development, resulting in an average timeline of several months.</p>
-      <p>Recognizing the need for a transformative solution, I focused on two key areas. First, I advocated for a shift from delivering fully formed HTML templates to embracing data-driven templates. Second, I created a dynamic template engine within Contentstack, "Master Module," empowering business users to create and edit templates seamlessly.</p>
-      <p>The implementation of this solution proved immensely successful, effectively eliminating the need for extensive design and engineering efforts <u>saving an estimated 3 months per request</u>. The Master Module enabled business users to create and leverage templates instantly, revolutionizing the approach to template management.</p>
-      <p>This strategic shift not only streamlined the template deployment process but also significantly reduced the time and effort previously associated with template updates. The success of this initiative highlights my ability to identify and address critical pain points, leveraging technology to enhance efficiency and empower users.</p>
-      <p>My role in steering the transition from a traditional CMS to a headless CMS, coupled with the successful implementation of a dynamic template engine, exemplifies my commitment to innovation and efficiency. This achievement stands as a testament to my strategic thinking and ability to drive impactful change within the realm of content management.</p>
-    </div>
   </div>
 
   <div class="row sub-section">
@@ -64,6 +46,29 @@
       <p>As a final touch, I introduced the concept of an entry "library" that housed reusable content. This library significantly reduced bloated assets and minimized the time required to recreate redundant information. The content library became a valuable resource for efficiently managing and reusing content elements, contributing to a more streamlined and resource-efficient content management system.</p>
       <p>The implementation of these strategic initiatives not only facilitated a smooth transition to Contentstack but also revolutionized AEO's content management approach. The focus on the "lockup," visual customization, and the content library collectively contributed to enhanced efficiency, reduced redundancy, and improved consistency across all channels.</p>
       <p>My role as the Content Architect during AEO's CMS transition reflects my commitment to developing strategic solutions that optimize content management processes. This experience underscores my ability to align technology with business goals, resulting in innovative and efficient solutions that drive organizational success.</p>
+    </div>
+  </div>
+
+  <div class="row sub-section">
+    <h3>Streamlining</h3>
+    <div class="preview col-md-push-8 col-md-4">
+      <img class="hidden-xs hidden-sm" src="/images/thumbs/tealium_lg.png"/>
+      <img class="hidden-md hidden-lg" src="/images/thumbs/tealium_sm.png"/>
+    </div>
+    <div class="copy col-md-pull-4 col-md-8">
+      <p>As the lead and, at times, sole engineer of the Analytics & Web Optimization team, a significant facet of my role involved overseeing Tealium, a tag management tool, providing the Universal Data Object (UDO). Given the UDO directly powered personalization and AB testing efforts, this relationship worked well.</p>
+      <p>Upon assuming ownership of Tealium, I observed that its usage had been primarily geared towards feature support, quick fixes, and 3rd party content experiences. Recognizing the need for a more strategic and streamlined approach, I undertook several initiatives to enhance its functionality and align it with the broader objectives.</p>
+      <p>Key Transformations:
+        <ol>
+          <li><b>Customizing and Streamlining Data Collection:</b></br>Within the advanced JS extensions, I focused on customizing and streamlining data collection processes. This strategic enhancement ensured that reliable data was consistently collected, forming the foundation for accurate and insightful business reports.</li>
+          <li><b>Pruning Unnecessary Extensions/Tags:</b></br>I initiated a comprehensive cleanup by removing all extensions and tags unrelated to data transfer. This not only decluttered the tool but also optimized site performance having removed inefficient 3rd parties integrations.</li>
+          <li><b>"utag_sync" Integration for AB Testing:</b></br>Leveraging the capabilities of utag_sync, I introduced helper methods specifically tailored for AB testing. This integration not only streamlined the AB testing processes but also enhanced the overall efficiency of the analytics initiatives.</li>
+          <li><b>UDO - Universal Data Object:</b></br>To ensure consistency and clarity, I introduced a syntax standard for the UDO properties. This standardization facilitated better communication across teams and improved the overall manageability of the data structure.</li>
+          <li><b>Architectural Enhancements:</b></br>Recognizing the need for scalability, I designed and implemented a robust architecture utilizing Tealium libraries and profiles. This laid the foundation for accommodating and supporting the growing integrations into newly aquired brands.</li>
+        </ol>
+      </p>
+      <p>The transformation of Tealium under my guidance resulted in a more purpose-driven and efficient tool. By aligning its capabilities with the analytics and web optimization goals, we achieved greater clarity, consistency, and scalability, setting the stage for enhanced data management and utilization.</p>
+      <p>My role in reshaping Tealium reflects my commitment to optimizing tools for specific business objectives. This initiative showcases my ability to not only identify areas for improvement but also to strategically implement changes that align technology with organizational goals, ultimately fostering more efficient and effective analytics and web optimization efforts.</p>
     </div>
   </div>
 
@@ -150,7 +155,24 @@
   </div>
 
   <div class="row sub-section">
-    <h3>Headless CMS<a href="/projects/headless-cms/">See it in action!</a></h3>
+    <h3>Process Improvements<a href="/projects/template-generator/">See it in action!</a></h3>
+    <div class="preview col-md-push-8 col-md-4">
+      <img class="hidden-xs hidden-sm" src="/images/thumbs/master_module_lg.jpg"/>
+      <img class="hidden-md hidden-lg" src="/images/thumbs/master_module_sm.jpg"/>
+      <div class="caption">Master Module</div>
+    </div>
+    <div class="copy col-md-pull-4 col-md-8">
+      <p>As a pivotal stakeholder in the inaugural Content Management System (CMS) implementation, Oracle WCS, I keenly understood the challenges associated with traditional CMS platforms. The transition to a headless CMS, specifically Contentstack, presented an opportunity to address a significant pain point from the legacy platform – design template flexibility.</p>
+      <p>Under Oracle WCS, the marketing messages were constrained by a fixed set of content templates, leading to extensive deployment times for new templates or updates. The process involved navigating through design, WCS development, and UI development, resulting in an average timeline of several months.</p>
+      <p>Recognizing the need for a transformative solution, I focused on two key areas. First, I advocated for a shift from delivering fully formed HTML templates to embracing data-driven templates. Second, I created a dynamic template engine within Contentstack, "Master Module," empowering business users to create and edit templates seamlessly.</p>
+      <p>The implementation of this solution proved immensely successful, effectively eliminating the need for extensive design and engineering efforts <u>saving an estimated 3 months per request</u>. The Master Module enabled business users to create and leverage templates instantly, revolutionizing the approach to template management.</p>
+      <p>This strategic shift not only streamlined the template deployment process but also significantly reduced the time and effort previously associated with template updates. The success of this initiative highlights my ability to identify and address critical pain points, leveraging technology to enhance efficiency and empower users.</p>
+      <p>My role in steering the transition from a traditional CMS to a headless CMS, coupled with the successful implementation of a dynamic template engine, exemplifies my commitment to innovation and efficiency. This achievement stands as a testament to my strategic thinking and ability to drive impactful change within the realm of content management.</p>
+    </div>
+  </div>
+
+  <div class="row sub-section">
+    <h3>Internal Applications<a href="/projects/headless-cms/">See it in action!</a></h3>
     <div class="preview col-md-push-8 col-md-4">
       <img class="hidden-xs hidden-sm" src="/images/thumbs/cms_lg.jpg"/>
       <img class="hidden-md hidden-lg" src="/images/thumbs/cms_sm.jpg"/>
@@ -172,29 +194,6 @@
       <p>Upon successfully implementing the solution, my manager and I pitched the idea to leadership as a new approach to drive all online content. Unfortunately, we were ahead of our time, proposing this concept around 2013.</p>
       <p>While the broader adoption of this approach was not immediate, the initiative laid the groundwork for future innovations in content management. The headless CMS and the accompanying application demonstrated the potential to revolutionize content updates, enhance efficiency, and reduce dependency on engineering support.</p>
       <p>The headless CMS initiative represents my commitment to finding innovative solutions at the intersection of business needs and technology. Despite being ahead of its time, this project exemplifies my ability to introduce cutting-edge concepts that can potentially reshape industry practices, showcasing a forward-thinking approach to app content management.</p>
-    </div>
-  </div>
-
-  <div class="row sub-section">
-    <h3>Tag Management</h3>
-    <div class="preview col-md-push-8 col-md-4">
-      <img class="hidden-xs hidden-sm" src="/images/thumbs/tealium_lg.png"/>
-      <img class="hidden-md hidden-lg" src="/images/thumbs/tealium_sm.png"/>
-    </div>
-    <div class="copy col-md-pull-4 col-md-8">
-      <p>As the lead and, at times, sole engineer of the Analytics & Web Optimization team, a significant facet of my role involved overseeing Tealium, a tag management tool, providing the Universal Data Object (UDO). Given the UDO directly powered personalization and AB testing efforts, this relationship worked well.</p>
-      <p>Upon assuming ownership of Tealium, I observed that its usage had been primarily geared towards feature support, quick fixes, and 3rd party content experiences. Recognizing the need for a more strategic and streamlined approach, I undertook several initiatives to enhance its functionality and align it with the broader objectives.</p>
-      <p>Key Transformations:
-        <ol>
-          <li><b>Customizing and Streamlining Data Collection:</b></br>Within the advanced JS extensions, I focused on customizing and streamlining data collection processes. This strategic enhancement ensured that reliable data was consistently collected, forming the foundation for accurate and insightful business reports.</li>
-          <li><b>Pruning Unnecessary Extensions/Tags:</b></br>I initiated a comprehensive cleanup by removing all extensions and tags unrelated to data transfer. This not only decluttered the tool but also optimized site performance having removed inefficient 3rd parties integrations.</li>
-          <li><b>"utag_sync" Integration for AB Testing:</b></br>Leveraging the capabilities of utag_sync, I introduced helper methods specifically tailored for AB testing. This integration not only streamlined the AB testing processes but also enhanced the overall efficiency of the analytics initiatives.</li>
-          <li><b>UDO - Universal Data Object:</b></br>To ensure consistency and clarity, I introduced a syntax standard for the UDO properties. This standardization facilitated better communication across teams and improved the overall manageability of the data structure.</li>
-          <li><b>Architectural Enhancements:</b></br>Recognizing the need for scalability, I designed and implemented a robust architecture utilizing Tealium libraries and profiles. This laid the foundation for accommodating and supporting the growing integrations into newly aquired brands.</li>
-        </ol>
-      </p>
-      <p>The transformation of Tealium under my guidance resulted in a more purpose-driven and efficient tool. By aligning its capabilities with the analytics and web optimization goals, we achieved greater clarity, consistency, and scalability, setting the stage for enhanced data management and utilization.</p>
-      <p>My role in reshaping Tealium reflects my commitment to optimizing tools for specific business objectives. This initiative showcases my ability to not only identify areas for improvement but also to strategically implement changes that align technology with organizational goals, ultimately fostering more efficient and effective analytics and web optimization efforts.</p>
     </div>
   </div>
 </div>
