@@ -2,6 +2,7 @@
   $title = "Live Your Life";
   $path = "/projects/live-your-life/";
   $exclude_container = true;
+  // $exclude_bootstrap = true;
   include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php");
 ?>
 
@@ -14,7 +15,12 @@
 
 <link rel="stylesheet" type="text/css" href="/includes/css/mediaelementplayer.css">
 <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/live_your_life.css">
-
+<style>
+  #content .row{
+    margin-left:0;
+    margin-right:0;
+  }
+</style>
 <h1>#LiveYourLife - Cast Showcase<a class="code-link" href="https://github.com/hallmanm/portfolio/tree/main/projects/live-your-life" target="_blank"><img src="/images/logos/github.png"/></a></h1>
 <div id="content">
   <div id="liveYourLifeHeader">
