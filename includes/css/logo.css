@@ -144,8 +144,8 @@
 }
 @keyframes mr {
   5%{rotate:-45deg;left:0;}
-  10%{left:-32%;}
-  100%{rotate:-45deg;left:-32%;}
+  10%{left:-31.9%;}
+  100%{rotate:-45deg;left:-31.9%;}
 }
 @keyframes w {
   5%{top:47%;}
@@ -159,8 +159,8 @@
 }
 @keyframes wr {
   5%{rotate:45deg;left:0;}
-  10%{left:-32%;}
-  100%{rotate:45deg;left:-32%;}
+  10%{left:-31.9%;}
+  100%{rotate:45deg;left:-31.9%;}
 }
 @keyframes h {
   5%{width:33.3333%;}
