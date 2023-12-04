@@ -10,7 +10,7 @@
 
 <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/sprite_gallery.css">
 
-<h1>Stop Motion Animation</h1>
+<h1>Stop Motion Animation<a class="code-link" href="https://github.com/hallmanm/portfolio/tree/main/projects/stop-motion" target="_blank"><img src="/images/logos/github.png"/></a></h1>
 <div class="section">
   <div id="AnimationWidgetWrapper" class="project"></div>
   <div class="disclaimer">Content &copy; AEO All Rights Reserved.</div>

@@ -4,7 +4,7 @@
   include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php");
 ?>
 
-<h1>Master Module - Template Generator</h1>
+<h1>Master Module - Template Generator<a class="code-link" href="https://github.com/hallmanm/portfolio/tree/main/projects/template-generator" target="_blank"><img src="/images/logos/github.png"/></a></h1>
 <div class="section">
   <iframe class="project" src="master-module.html" style="width:100%;height:810px;"></iframe>
   <div class="disclaimer">View JSON output in console.</div>

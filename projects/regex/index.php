@@ -4,7 +4,7 @@
   include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php");
 ?>
 
-<h1>RegEx - 77kids Word Count</h1>
+<h1>RegEx - 77kids Word Count<a class="code-link" href="https://github.com/hallmanm/portfolio/tree/main/projects/regex" target="_blank"><img src="/images/logos/github.png"/></a></h1>
 <div class="section">
   <p>This text box functionality was originally for a "77Kids" sweepstakes which required the participant to write a short essay about their child. The essay allowed up to 300 words. This box will count the inputed words and also tell you if you've gone over and by how many words.</p>
   <p>For this example, the word limit is set to 10.</p>

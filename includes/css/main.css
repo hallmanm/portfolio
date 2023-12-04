@@ -3,11 +3,11 @@
   padding:0;
 }
 html{
-  background-color: #333;
+  background-color: #444;
 }
 body{
   padding-top:150px;
-  color:#333;
+  color:#444;
   background-color: #fbf7f5;
   font-family: Arial;
   letter-spacing: 1px;
@@ -27,14 +27,14 @@ ul,ol{
 .header,
 .footer{
   width: 100%;
-  background-color:#333;
+  background-color:#444;
 }
 nav{
   text-align: center;
   margin-top: 55px;
-  color: #333;
+  color: #444;
   font-size: 11px;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #444;
   background-color: #fbf7f5;
   padding:5px;
 }
@@ -45,7 +45,7 @@ nav a,
   margin: 0 10px;
 }
 a{
-  color: #333;
+  color: #444;
   text-decoration:none;
 }
 a:hover{
@@ -247,6 +247,7 @@ h3 .code-link{
   background-color: #fbf7f5;
 }
 .footer{
+  z-index: 2;
   position: relative;
   padding:50px 0;
   margin-top: 100px;

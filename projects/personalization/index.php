@@ -7,7 +7,7 @@
 <h1>Personalization</h1>
 <div class="section">
   <div class="project">
-    <img src="/images/thumbs/just_for_you.jpg"/>
+    <img src="/images/thumbs/just_for_you_lg.jpg"/>
   </div>
   
 </div>

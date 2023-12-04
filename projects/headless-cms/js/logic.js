@@ -75,7 +75,7 @@
       days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
       auto_save = window.setInterval(save, 300000);
 function updateHeight(){
-  $(generator_wrap).css('height',+$(window).outerHeight() - $('#header').outerHeight() - $('#nav').outerHeight() - $('#footer').outerHeight() +'px');
+  $(generator_wrap).css('height',+$(window).outerHeight() - $('#header').outerHeight() - $('#nav').outerHeight() - $('h1').outerHeight() - $('#disclaimer').outerHeight() +'px');
 }
 
 $(document).ready(function(){

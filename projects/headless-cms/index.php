@@ -9,10 +9,30 @@
 <script type="text/javascript" src="/includes/js/jquery.js"></script>
 <script type="text/javascript" src="<?php echo $path; ?>js/dependencies.js"></script>
 <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/styles.css">
+<style>
+  body{
+    padding-top:90px;
+  }
+  h1{
+    margin-bottom:0;
+  }
+  h1,
+  .disclaimer{
+    z-index: 1;
+    position: relative;
+    background-color: #fbf7f5;
+  }
+  .content{
+    margin-top:-48px;
+  }
+  .footer{
+    margin-top:0;
+  }
+</style>
 
-<!-- <h1>Brandcardinator - Headless CMS</h1>
-<div class="section"> -->
-  <div class="disclaimer">This application must be viewed on a desktop browser. | Content &copy; AEO All Rights Reserved.</div>
+<h1>Headless CMS<a class="code-link" href="https://github.com/hallmanm/portfolio/tree/main/projects/headless-cms" target="_blank"><img src="/images/logos/github.png"/></a></h1>
+<!-- <div class="section"> -->
+  <div id="disclaimer" class="disclaimer">This application must be viewed on a desktop browser. | Content &copy; AEO All Rights Reserved.</div>
   <div class="cms" style="position:relative;">
     <div id="generator_wrap" class="generator_wrap showTip">
       <div class="minMax">

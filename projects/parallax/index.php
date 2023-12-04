@@ -11,12 +11,27 @@
 <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/parallax.css">
 
 <style>
+  body{
+    padding-top:90px;
+  }
+  h1{
+    margin-bottom:0;
+  }
+  h1,
+  .disclaimer{
+    z-index: 1;
+    position: relative;
+    background-color: #fbf7f5;
+  }
+  .content{
+    margin-top:-48px;
+  }
   .footer{
     margin-top:0;
   }
 </style>
-
-<div class="disclaimer">Parallax - Proof of Concept</div>
+<h1>Parallax<a class="code-link" href="https://github.com/hallmanm/portfolio/tree/main/projects/parallax" target="_blank"><img src="/images/logos/github.png"/></a></h1>
+<div class="disclaimer">Proof of Concept</div>
 <div id="content">
   <div id="parallaxWrap" class="parallaxWrap">
     <div id="paraCrumbs" class="paraCrumbs"></div>

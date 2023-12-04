@@ -15,7 +15,7 @@
 <link rel="stylesheet" type="text/css" href="/includes/css/mediaelementplayer.css">
 <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/live_your_life.css">
 
-<h1>#LiveYourLife - Cast Showcase</h1>
+<h1>#LiveYourLife - Cast Showcase<a class="code-link" href="https://github.com/hallmanm/portfolio/tree/main/projects/live-your-life" target="_blank"><img src="/images/logos/github.png"/></a></h1>
 <div id="content">
   <div id="liveYourLifeHeader">
     <div class="btnContainer">

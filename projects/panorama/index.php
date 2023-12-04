@@ -12,7 +12,7 @@
 
 <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/pano.css">
 
-<h1>Panorama</h1>
+<h1>Panorama<a class="code-link" href="https://github.com/hallmanm/portfolio/tree/main/projects/panorama" target="_blank"><img src="/images/logos/github.png"/></a></h1>
 <div class="section">
   <div class="disclaimer">This application must be viewed on a desktop browser.</div>
   <div class="project">
