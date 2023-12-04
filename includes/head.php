@@ -12,8 +12,9 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     
     <meta property="og:image" content="https://michaelwhallman.com/images/logos/og.jpg"/>
-    <meta property="og:title" content="Michael W Hallman | Sr Engineering Manager"/>
-    <meta property="og:description" content="Experienced Data-driven Engineering Manager | Expertise in Experimentation, Personalization, and Front-end Development"/>
+    <meta property="og:url" content="michaelwhallman.com">
+    <meta property="og:title" content="Michael W Hallman"/>
+    <meta property="og:description" content="Professional Portfolio"/>
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
     
