@@ -15,7 +15,7 @@
 
 <div class="section">
   <h2>Impact</h2>
-  <div class="row sub-section">
+  <div class="row section">
     <h3>Team Building</h3>
   	<div class="preview col-md-push-8 col-md-4">
       <img class="hidden-xs hidden-sm" src="/images/thumbs/awo_lg.jpg"/>
@@ -32,7 +32,7 @@
   	</div>
   </div>
 
-  <div class="row sub-section">
+  <div class="row section">
     <h3>Architecture</h3>
     <div class="preview col-md-push-8 col-md-4">
       <img src="/images/thumbs/cs_content_model.jpg"/>
@@ -49,7 +49,7 @@
     </div>
   </div>
 
-  <div class="row sub-section">
+  <div class="row section">
     <h3>Streamlining</h3>
     <div class="preview col-md-push-8 col-md-4">
       <img class="hidden-xs hidden-sm" src="/images/thumbs/tealium_lg.png"/>
@@ -72,7 +72,7 @@
     </div>
   </div>
 
-  <div class="row sub-section">
+  <div class="row section">
     <h3>Growing Talent</h3>
     <div class="preview col-md-push-8 col-md-4">
       <img src="/images/thumbs/internship.jpg"/>
@@ -92,7 +92,7 @@
 
 <div class="section">
   <h2>Business Value</h2>
-  <div class="row sub-section">
+  <div class="row section">
     <h3>Experimentation<span class="sub-header">$130M+ Annual Revenue</span></h3>
     <div class="preview col-md-push-8 col-md-4">
       <img class="hidden-xs hidden-sm" src="/images/thumbs/ab_lg.png"/>
@@ -106,7 +106,7 @@
     </div>
   </div>
 
-  <div class="row sub-section">
+  <div class="row section">
     <h3>Personalization<span class="sub-header">$12M Annual Revenue</span></h3>
     <div class="preview col-md-push-8 col-md-4">
       <img class="hidden-xs hidden-sm" src="/images/thumbs/just_for_you_lg.jpg"/>
@@ -121,7 +121,7 @@
     </div>
   </div>
 
-  <div class="row sub-section">
+  <div class="row section">
     <h3>Build vs Buy<span class="sub-header">$300K Cost Savings</span></h3>
     <div class="preview col-md-push-8 col-md-4">
       <img class="hidden-xs hidden-sm" src="/images/thumbs/brooksbell_lg.png"/>
@@ -138,7 +138,7 @@
 
 <div class="section">
   <h2>Development</h2>
-  <div class="row sub-section">
+  <div class="row section">
     <h3>Frameworks<a href="/projects/stop-motion/">See it in action!</a></h3>
     <div class="preview col-md-push-8 col-md-4">
       <img class="hidden-xs hidden-sm" src="/images/thumbs/jeanguide_lg.jpg"/>
@@ -154,7 +154,7 @@
     </div>
   </div>
 
-  <div class="row sub-section">
+  <div class="row section">
     <h3>Process Improvements<a href="/projects/template-generator/">See it in action!</a></h3>
     <div class="preview col-md-push-8 col-md-4">
       <img class="hidden-xs hidden-sm" src="/images/thumbs/master_module_lg.jpg"/>
@@ -171,7 +171,7 @@
     </div>
   </div>
 
-  <div class="row sub-section">
+  <div class="row section">
     <h3>Internal Applications<a href="/projects/headless-cms/">See it in action!</a></h3>
     <div class="preview col-md-push-8 col-md-4">
       <img class="hidden-xs hidden-sm" src="/images/thumbs/cms_lg.jpg"/>
@@ -200,7 +200,7 @@
 
 <div class="section">
   <h2>Recognition</h2>
-  <div class="row sub-section">
+  <div class="row section">
     <h3>Eagle's Elite<a href="/projects/personalization/">See it in action!</a></h3>
     <div class="copy col-sm-6 col-md-8">
       <p>Jimmy Hunkele and Michael Hallman were recognized by Roberto Croce and Michael Leedy for their Passion, Innovation and Teamwork. Working above and beyond the call of duty, Jimmy and Michael worked outside of their primary responsibilities to implement Personalized Product Recommendations throughout the AE.COM web experience. Due to their teamwork, this implementation is projected to net over an estimated 12 million in annual revenue and the additional revenue realized has already resulted in significant positive ROI.</p>
@@ -210,7 +210,7 @@
     </div>
   </div>
 
-  <div class="row sub-section">
+  <div class="row section">
     <h3>Eagle's Elite<a href="/projects/live-your-life/">See it in action!</a></h3>
     <div class="copy col-sm-6 col-md-8">
       <p>Lisa Rusciolelli, Mia Federici, Mike Hallman, Steve Brown, Matt Cipperly, Scott Rupnik, Jessica Berlin and Ethan Holland were recognized for their incredible work with the Live Your Life contest. Nominated for their Passion and Teamwork by Roberto Croce and Michael Leedy, this team of associates went above and beyond in both innovative thinking as well as working tirelessly all day, night, and during their weekends to ensure an on-time, successful launch of AE's Live Your Life BTS sweepstakes campaign. Special thanks to Lisa Rusciolelli for her tremendous leadership in this project. Due to their hard work, currently, the contest has generated $961,067 vs last years, $541,696, resulting in a 77.4% increase in comps.</p>
@@ -220,7 +220,7 @@
     </div>
   </div>
 
-  <div class="row sub-section">
+  <div class="row section">
     <h3>Op Co Spotlight<a href="/projects/template-generator/">See it in action!</a></h3>
     <div class="copy col-sm-6 col-md-8">
       <p>Julie Glaros, VP - GMM / AE Direct, recognized 26 Associates across three Departments who worked for over a year to bring a new digital content system to AEO!</p>
@@ -233,7 +233,7 @@
     </div>
   </div>
 
-  <div class="row sub-section">
+  <div class="row section">
     <h3>High Fives</h3>
     <div class="col-xs-12">
       <div class="award col-xs-6 col-sm-3"><img src="/images/awards/award_1.jpg"/></div>
@@ -252,7 +252,7 @@
     </div>
   </div>
 
-  <div class="row sub-section">
+  <div class="row section">
     <h3>SailThru</h3>
     <div class="copy col-sm-6 col-md-8">
       <p>Ranked in Top 100 Retail Personalization Index by SailThru for personalization features.</p>
@@ -265,7 +265,7 @@
 
 <div class="section">
   <h2>Recommendations</h2>
-  <div class="row sub-section">
+  <div class="row section">
     <div class="preview col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
       <img class="circle" src="/images/linkedin/mackenzie.jpg"/>
       <div class="caption centered">
@@ -279,7 +279,7 @@
     </div>
   </div>
 
-  <div class="row sub-section">
+  <div class="row section">
     <div class="preview col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
       <img class="circle" src="/images/linkedin/ashley.jpg"/>
       <div class="caption centered">
@@ -293,7 +293,7 @@
     </div>
   </div>
 
-  <div class="row sub-section">
+  <div class="row section">
     <div class="preview col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
       <img class="circle" src="/images/linkedin/lyndsay.jpg"/>
       <div class="caption centered">
@@ -307,7 +307,7 @@
     </div>
   </div>
 
-  <div class="row sub-section">
+  <div class="row section">
     <div class="preview col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
       <img class="circle" src="/images/linkedin/shawn.jpg"/>
       <div class="caption centered">
@@ -321,7 +321,7 @@
     </div>
   </div>
 
-  <div class="row sub-section">
+  <div class="row section">
     <div class="preview col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
       <img class="circle" src="/images/linkedin/nate.jpg"/>
       <div class="caption centered">
@@ -335,7 +335,7 @@
     </div>
   </div>
 
-  <div class="row sub-section" style="text-align:center;">
+  <div class="row section" style="text-align:center;">
     <a class="leave-rec" href="https://www.linkedin.com/recs/give/?senderId=hallmanm" target="_blank"><span class="plus"><span>+</span></span>Leave Your Recommendation</a>
   </div>
 </div>
