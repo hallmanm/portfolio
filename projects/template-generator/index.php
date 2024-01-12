@@ -127,7 +127,7 @@ lg: {
       <div class="row section">
         <h4>Live Preview</h4>
         <div class="col-sm-8">
-          <p>The "Master Module" offers a straightforward yet effective preview of "lockup" settings. The square within the block denotes content placement, while lines represent copy attributes. Similarly, animation settings can be displayed using these elements.</p>
+          <p>The "Master Module" offers a straightforward yet effective preview of "lockup" settings. The square within the block denotes content placement, while lines represent copy attributes.</p>
         </div>
         <div class="col-sm-4">
           <img src="images/justify.jpg"/>
