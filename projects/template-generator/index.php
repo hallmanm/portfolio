@@ -10,29 +10,39 @@
   <div class="disclaimer">View JSON output in console.</div>
 </div>
 
+<h2>More Info...</h2>
+<p style="text-align: right;"><a class="code-link" href="https://github.com/hallmanm/portfolio/tree/main/projects/template-generator" target="_blank"><img src="/images/logos/github.png"/></a></p>
+
 <div class="section">
-  <h2>More Info...</h2>
-  <p style="text-align: right;"><a class="code-link" href="https://github.com/hallmanm/portfolio/tree/main/projects/template-generator" target="_blank"><img src="/images/logos/github.png"/></a></p>
-  <div class="row section">
+
+  <div class="section">
     <h3>Purpose</h3>
-    <div class="col-xs-12">
-      <p>The "Master Module" empowers business users to effortlessly generate marketing content modules on demand. What used to require collaborative efforts from UX, Design, Engineering, and QE, spanning months of coordination and work, can now be accomplished instantly. The "Master Module" is designed to facilitate the creation of unique modules or establish a library of customizable templates.</p>
-    </div>
+    <p>The "Master Module" empowers business users to effortlessly generate marketing content modules on demand. What used to require collaborative efforts from UX, Design, Engineering, and QE, spanning months of coordination and work, can now be accomplished instantly. The "Master Module" is designed to facilitate the creation of unique modules or establish a library of customizable templates.</p>
   </div>
 
-  <div class="row section">
+  <div class="section">
     <h3>Background</h3>
-    <div class="col-xs-12">
-    <p>AEO faced challenges with its traditional CMS, particularly in adapting the brand's ever-evolving online presence. When presented with the chance to adopt a headless CMS, I suggested a dynamic solution that would instruct the UI on the placement and presentation of pre-defined marketing content. This solution streamlined a library of over 50 modules into a single, versatile module with the capability to generate countless layouts based on the team's creative ideas.</p>
-    </div>
+      <p>AEO faced challenges with its traditional CMS, particularly in adapting the brand's ever-evolving online presence. When presented with the chance to adopt a headless CMS, I suggested a dynamic solution that would instruct the UI on the placement and presentation of pre-defined marketing content. This solution streamlined a library of over 50 modules into a single, versatile module with the capability to generate countless layouts based on the team's creative ideas.</p>
   </div>
 
-  <div class="row section">
-    <h3>Features</h3>
-    <div class="col-xs-12">
+  <div class="section">
+    <h3>Overview</h3>
 
-      <div class="row section">
-        <h4>Lockups</h4>
+    <div class="section">
+      <h4>Grid System</h4>
+      <div class="row">
+        <div class="col-md-3">
+          <p>Leveraging a custom adaptation of <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>, the "Master Module" uses a responsive 12 column grid system to place dynamically sized blocks of content into rows. Expanding on the grid system, the "Master Module" also allows blocks to be "pushed" or "pulled" by 50% in order to better center content when needed.</p>
+        </div>
+        <div class="col-md-9">
+          <img src="images/push_pull.jpg"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h4>Lockups</h4>
+      <div class="row">
         <div class="col-md-5">
           <p>At the heart of the "Master Module" functionality lies the concept of the "lockup." A "lockup" is defined as marketing content incorporating various combinations of copy, media, and CTAs. Each "lockup" is represented by a numbered block within the "Master Module," providing users with a clear visual of the content's position and appearance across different breakpoints.</p>
         </div>
@@ -43,50 +53,185 @@
           <img src="images/lockup.jpg"/>
         </div>
       </div>
-      
+    </div>
 
-      <div class="row section">
-        <h4>Grid System</h4>
-        <div class="col-md-4">
-          <p>Leveraging a custom adaptation of <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>, the "Master Module" uses a responsive 12 column grid system to place dynamically sized blocks of content into rows. Expanding on the grid system, the "Master Module" also allows blocks to be "pushed" or "pulled" by 50% in order to better center content when needed.</p>
+    <div class="section">
+      <img src="images/module.jpg"/>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="section">
+      <h4>Dynamic Layouts</h4>
+
+      <div class="section">
+        <h5>Example 1: Simple, Single Lockup Layout</h5>
+        <div class="section">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="images/ex2_lu1.jpg"/>
+              <div class="caption">Lockup</div>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+              <img src="images/ex2_layout_sm.jpg"/>
+              <div class="caption">Layout</div>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+              <img src="images/ex2_module_sm.jpg"/>
+              <div class="caption">Mobile Module</div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-8">
-          <img src="images/push_pull.jpg"/>
+        <div class="section">
+          <div class="row">
+            <div class="col-xs-12">
+              <img src="images/ex2_module_md.jpg"/>
+              <div class="caption">Desktop Module</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h5>Example 2: Triple Lockup Layout with Breakpoint Changes</h5>
+        <div class="section">
+          <div class="row">  
+            <div class="col-sm-4">
+              <img src="images/ex1_lu1.jpg"/>
+              <div class="caption">1st Lockup</div>
+            </div>
+            <div class="col-sm-4">
+              <img src="images/ex1_lu2.jpg"/>
+              <div class="caption">2nd Lockup</div>
+            </div>
+            <div class="col-sm-4">
+              <img src="images/ex1_lu3.jpg"/>
+              <div class="caption">3rd Lockup</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="row">  
+            <div class="col-sm-6">
+              <img src="images/ex1_layout_sm.jpg"/>
+              <div class="caption">Mobile Layout</div>
+            </div>
+            <div class="col-sm-6">
+              <img src="images/ex1_module_sm.jpg"/>
+              <div class="caption">Mobile Module</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="row">
+            <div class="col-xs-12">
+              <img src="images/ex1_layout_md.jpg"/>
+              <div class="caption">Desktop Layout</div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="row">
+            <div class="col-xs-12">
+              <img src="images/ex1_module_md.jpg"/>
+              <div class="caption">Desktop Module</div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="section">
+      <h4>Live Preview</h4>
+      <div class="section">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>The "Master Module" offers a straightforward yet effective preview of "lockup" settings. The square within the block denotes content placement, while lines represent copy attributes.</p>
+            <img src="images/justify.jpg"/>
+            <div class="caption">Justification</div>
+          </div>
+          <div class="col-sm-6">
+              <img src="images/options.jpg"/>
+              <div class="caption">Settings</div>
+            </div>
         </div>
       </div>
 
-      <div class="row section">
-        <div class="col-md-12">
-          <img src="images/module.jpg"/>
+      <div class="section">
+        <div class="row">
+          <div class="col-xs-12">
+            <img src="images/anchor.jpg"/>
+            <div class="caption">Anchoring</div>
+          </div>
         </div>
       </div>
-      <div class="row section">
-        <div class="col-xs-12">
-          <p>To achieve the straightforward layout above, a single block will be generated spanning 3 columns, offset by 7 columns. Within the CMS, the "lockup" in the first position will align with the depicted block.</p>
-        </div>
-        <div class="col-xs-12">
-          <img src="images/template.jpg"/>
+
+      <div class="section">
+        <div class="row">
+          <div class="col-sm-4">
+            <p>Similarly, animation settings can be displayed using these same elements.</p>
+          </div>
+          <div class="col-sm-8">
+            <img src="images/animation_2.gif"/>
+            <div class="caption">Animation</div>
+          </div>
         </div>
       </div>
-      
-      <div class="row section">
-        <h4>Headless</h4>
+
+      <div class="section">
+        <h4>Templates</h4>
+        <p>The "Master Module" enables users to save their layouts using the CMS tool. When opened, it utilizes the CMS API to load all saved template entries. With no limitations on the number of templates, a naming convention was established to facilitate automatic filtering, aiding users in quickly locating their layouts.</p>
+      </div>
+
+    </div>
+  </div>
+  
+  <div class="section">
+    <h3>Technical Details</h3>
+    <div class="section">
+      <h4>Headless</h4>
+      <div class="row">
         <div class="col-xs-12">
           <p>Traditional CMS output generates fully-formed HTML, necessitating development efforts in both the CMS and UI. This not only significantly increases the payload but also establishes a dependency between the CMS and the platform. In contrast, the "Master Module" produces an efficient data object, delivering only the essential properties and values required for the UI to display content.</p>
           <p>Open the console to view the live data output from the "Master Module" above!</p>
         </div>
       </div>
+    </div>
       
-      <div class="row section">
-        <h4>Mobile First</h4>
-        <div class="col-xs-12">
-          <p>Adhering to the industry standard of "<a href="https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First" target="_blank">mobile first</a>," the "Master Module" collects all the data for the "small" breakpoint, followed by only the modified properties for higher breakpoints which will inherit any properties not explicitly overwritten. Furthermore, this minimizes the payload, enhancing overall efficiency and page speed.</p>
-        
-          <div class="col-sm-6 col-md-6">
-            <img src="images/options.jpg"/>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <pre>
+    <div class="section">
+      <h4>Mobile First</h4>
+      <p>Adhering to the industry standard of "<a href="https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First" target="_blank">mobile first</a>," the "Master Module" collects all the data for the "small" breakpoint, followed by only the modified properties for higher breakpoints which will inherit any properties not explicitly overwritten. Furthermore, this minimizes the payload, enhancing overall efficiency and page speed.</p>
+      <div class="row">
+        <div class="col-sm-4">
+          <pre>
 sm: {
   anchor: "center",
   animate: "both",
@@ -102,7 +247,7 @@ sm: {
 }
             </pre>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="col-sm-4">
             <pre>
 md: {
   anchor: "tr",
@@ -110,7 +255,7 @@ md: {
 }
             </pre>
           </div>
-          <div class="col-sm-6 col-md-6 col-md-offset-6 col-lg-3 col-lg-offset-0">
+          <div class="col-sm-4">
             <pre>
 lg: {
   border: "bottom",
@@ -123,49 +268,12 @@ lg: {
         
         </div>
       </div>
-      
-      <div class="row section">
-        <h4>Live Preview</h4>
-        <div class="col-sm-8">
-          <p>The "Master Module" offers a straightforward yet effective preview of "lockup" settings. The square within the block denotes content placement, while lines represent copy attributes.</p>
-        </div>
-        <div class="col-sm-4">
-          <img src="images/justify.jpg"/>
-          <div class="caption">Justification</div>
-        </div>
+    </div>    
+    <div class="section">
+      <h4>Loading Templates</h4>
+      <div class="row">
         <div class="col-xs-12">
-          <img src="images/anchor.jpg"/>
-          <div class="caption">Anchoring</div>
-        </div>
-      </div>
-      
-      <div class="row section">
-        <div class="col-sm-4">
-          <p>Similarly, animation settings can be displayed using these same elements.</p>
-        </div>
-        <div class="col-sm-8">
-          <img src="images/animation_2.gif"/>
-          <div class="caption">Animation</div>
-        </div>
-      </div>
-
-      <div class="row section">
-        <h4>Templates</h4>
-        <div class="col-xs-12">
-          <p>The "Master Module" enables users to save their layouts using the CMS tool. When opened, it utilizes the CMS API to load all saved template entries. With no limitations on the number of templates, a naming convention was established to facilitate automatic filtering, aiding users in quickly locating their layouts.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-  <div class="row section">
-    <h3>Code Samples</h3>
-    <div class="col-xs-12">
-        
-      <div class="row section">
-          <h4>Loading Templates</h4>
-          <div class="col-xs-12">
-            <pre>
+          <pre>
 function getTemplates(){
   var env = extensionField.stack._data.name || 'PROD';
   var xhr = new XMLHttpRequest();
@@ -189,14 +297,14 @@ function getTemplates(){
   };
   xhr.send();
 }
-            </pre>
-          </div>
+          </pre>
         </div>
+      </div>
+    </div>
 
-        <div class="row section">
-          <h4>Create Filter</h4>
-          <div class="col-xs-12">
-            <pre>
+    <div class="section">
+      <h4>Create Filter</h4>
+      <pre>
 for (var i = 0; i < templates.length; i++) {
   template = templates[i];
   title = template.title || '';
@@ -227,14 +335,12 @@ if (categories.length &gt; 0) {
 
   filterHtml += '&lt;/select&gt;&lt;/div&gt;';
 }
-            </pre>
-          </div>
-        </div>
+      </pre>
+    </div>
 
-        <div class="row section">
-          <h4>Options Validation</h4>
-          <div class="col-xs-12">
-            <pre>
+    <div class="section">
+      <h4>Options Validation</h4>
+      <pre>
 function testTotalColsBlock(size){
   var ind = data.loops.breakpoints.indexOf(size);
   var offset = data.options[size].offset || data.options[data.loops.breakpoints[ind - 1] || size].offset || data.options[data.loops.breakpoints[ind - 2] || size].offset || 0;
@@ -261,14 +367,12 @@ function testHiddenBreakpoints(){
 
   return valid;
 }
-            </pre>
-          </div>
-        </div>
+      </pre>
+    </div>
 
-        <div class="row section">
-          <h4>Creating the Data Object</h4>
-          <div class="col-xs-12">
-            <pre>
+    <div class="section">
+      <h4>Creating the Data Object</h4>
+      <pre>
 for (var i = 0; i < data.loops.areas.length; i++) {
   area = data.loops.areas[i];
   data.output.layout[area] = [];
@@ -309,11 +413,7 @@ for (var i = 0; i < data.loops.areas.length; i++) {
   }
   data.output.layout[area] = rows;
 }
-            </pre>
-          </div>
-        </div>
-
-      </div>
+      </pre>
     </div>
 
   </div>

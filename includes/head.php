@@ -40,7 +40,13 @@
       gtag('config', 'G-YCHET003YV');
     </script>
   </head>
-  <body>
+  <?php
+    if (isset($class)){
+      echo '<body class="'.$class.'">';
+    }else{
+      echo '<body>';
+    }
+  ?>
     <div id="header" class="header">
       <?php include($_SERVER['DOCUMENT_ROOT'] . "/includes/logo.php"); ?>
       <nav id="nav">

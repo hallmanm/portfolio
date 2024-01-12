@@ -1,5 +1,6 @@
 <?php
   $title = "Resume";
+  $class = "resume";
   include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php");
 ?>
 
