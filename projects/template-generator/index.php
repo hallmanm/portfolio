@@ -59,16 +59,6 @@
       <img src="images/module.jpg"/>
     </div>
 
-
-
-
-
-
-
-
-
-
-
     <div class="section">
       <h4>Dynamic Layouts</h4>
 
@@ -147,27 +137,9 @@
             </div>
           </div>
         </div>
-
-
-
-
       </div>
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <div class="section">
       <h4>Live Preview</h4>
@@ -209,6 +181,7 @@
       <div class="section">
         <h4>Templates</h4>
         <p>The "Master Module" enables users to save their layouts using the CMS tool. When opened, it utilizes the CMS API to load all saved template entries. With no limitations on the number of templates, a naming convention was established to facilitate automatic filtering, aiding users in quickly locating their layouts.</p>
+        <img src="images/filter.jpg"/>
       </div>
 
     </div>
