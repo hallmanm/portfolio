@@ -86,51 +86,39 @@
             <img src="images/options.jpg"/>
           </div>
           <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="code">
-              <ul class="output">
-                <li>sm: {</li>
-                <ul>
-                <li>anchor: "center",</li>
-                <li>animate: "both",</li>
-                <li>animation: "none",</li>
-                <li>border: "none",</li>
-                <li>hidden: "show",</li>
-                <li>justify: "center",</li>
-                <li>margin: "0 15px",</li>
-                <li>offset: 2,</li>
-                <li>padding: "0 15px",</li>
-                <li>span: 10,</li>
-                <li>split: "none"</li>
-                  </ul>
-                <li>}</li>
-              </ul>
-            </div>
+            <pre>
+sm: {
+  anchor: "center",
+  animate: "both",
+  animation: "none",
+  border: "none",
+  hidden: "show",
+  justify: "center",
+  margin: "0 15px",
+  offset: 2,
+  padding: "0 15px",
+  span: 10,
+  split: "none"
+}
+            </pre>
           </div>
           <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="code">
-              <ul class="output">
-                <li>md: {</li>
-                <ul>
-                  <li>anchor: "tr",</li>
-                  <li>justify: "left"</li>
-                </ul>
-                <li>}</li>
-              </ul>
-            </div>
+            <pre>
+md: {
+  anchor: "tr",
+  justify: "left"
+}
+            </pre>
           </div>
           <div class="col-sm-6 col-md-6 col-md-offset-6 col-lg-3 col-lg-offset-0">
-            <div class="code">
-              <ul class="output">
-                <li>lg: {</li>
-                <ul>
-                <li>border: "bottom",</li>
-                <li>offset: 1,</li>
-                <li>span: 11,</li>
-                <li>split: "pull"</li>
-                </ul>
-                <li>}</li>
-              </ul>
-            </div>
+            <pre>
+lg: {
+  border: "bottom",
+  offset: 1,
+  span: 11,
+  split: "pull"
+}
+            </pre>
           </div>
         
         </div>
