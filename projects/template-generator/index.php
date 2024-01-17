@@ -395,7 +395,6 @@ for (var i = 0; i < data.loops.areas.length; i++) {
   window.masterModule = window.masterModule || {
     updateiFrameHeight: function(val){
       document.getElementById('master_module').style.height = val+"px";
-console.log("updateiFrameHeight",val);
     }
   }
 </script>
