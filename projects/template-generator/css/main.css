@@ -212,6 +212,14 @@
 .filter_wrap {
   right: 0;
 }
+@media (max-width: 700px) {
+  .filter_wrap {
+    margin-top: 70px;
+  }
+  #height{
+    margin-top: 150px;
+  }
+}
 .lg .tabs .lg-break,
 .md .tabs .md-break,
 .sm .tabs .sm-break {
