@@ -1,6 +1,6 @@
 # Master Module
 
-The "Master Module" is an application that allows CMS users to dynamically create marketing modules without any engineering efforts.
+The "Master Module" is an application that allows CMS users to dynamically create marketing modules without any engineering efforts. This application was used within <a href="https://www.contentstack.com/" target="_blank">Contentstack</a>.
 
 ## Usage
 The application is meant to be an "extension" within a headless CMS. The contents from <a href="https://github.com/hallmanm/portfolio/blob/main/projects/template-generator/master-module.html">master_module.html</a> can be directly included into the CMS extension. Typically, the CMS will import the extension as an iframe.
