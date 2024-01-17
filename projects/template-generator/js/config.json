@@ -1,0 +1,29 @@
+{
+  "baseURL": "https://cdn.contentstack.io/",
+  "contentType": "templates_master_module",
+  "templateEnv": "preview",
+  "Sky Pie": {
+    "apiKey": "",
+    "deliveryToken": ""
+  },
+  "DEV": {
+    "apiKey": "",
+    "deliveryToken": ""
+  },
+  "SIT": {
+    "apiKey": "",
+    "deliveryToken": ""
+  },
+  "SIT2": {
+    "apiKey": "",
+    "deliveryToken": ""
+  },
+  "PERF": {
+    "apiKey": "",
+    "deliveryToken": ""
+  },
+  "PROD": {
+    "apiKey": "",
+    "deliveryToken": ""
+  }
+}
