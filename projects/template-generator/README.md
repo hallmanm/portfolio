@@ -5,6 +5,24 @@ The "Master Module" is an application that allows CMS users to dynamically creat
 ## Usage
 The application is meant to be an "extension" within a headless CMS. The contents from <a href="https://github.com/hallmanm/portfolio/blob/main/projects/template-generator/master-module.html">master_module.html</a> can be directly included into the CMS extension. Typically, the CMS will import the extension as an iframe.
 
+### Extension Data
+```javascript
+//config
+{
+  "baseURL": "https://cdn.contentstack.io/",
+  "contentType": "templates_master_module",
+  "templateEnv": "preview",
+  "DEV": {
+    "apiKey": "",
+    "deliveryToken": ""
+  },
+  "PROD": {
+    "apiKey": "",
+    "deliveryToken": ""
+  }
+}
+```
+
 ## Integrations with CMS
 
 ### Connect with CMS
@@ -35,23 +53,5 @@ if (boolean) {
 //ex
 if (extensionField.field.schema.config.showTemplates) {
   getTemplates();
-}
-```
-
-### Extension Data
-```javascript
-//config
-{
-  "baseURL": "https://cdn.contentstack.io/",
-  "contentType": "templates_master_module",
-  "templateEnv": "preview",
-  "DEV": {
-    "apiKey": "",
-    "deliveryToken": ""
-  },
-  "PROD": {
-    "apiKey": "",
-    "deliveryToken": ""
-  }
 }
 ```
