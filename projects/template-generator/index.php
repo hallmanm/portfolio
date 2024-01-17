@@ -6,7 +6,7 @@
 
 <h1>Master Module - Template Generator<a class="code-link" href="https://github.com/hallmanm/portfolio/tree/main/projects/template-generator" target="_blank"><img src="/images/logos/github.png"/></a></h1>
 <div class="section">
-  <iframe class="project" src="master-module.html" style="width:100%;height:810px;"></iframe>
+  <iframe id="master_module" class="project" src="master-module.html" style="width:100%;height:810px;"></iframe>
   <div class="disclaimer">View JSON output in console.</div>
 </div>
 
@@ -391,5 +391,12 @@ for (var i = 0; i < data.loops.areas.length; i++) {
 
   </div>
 </div>
-
+<script>
+  window.masterModule = window.masterModule || {
+    updateiFrameHeight: function(val){
+      document.getElementById('master_module').style.height = val+"px";
+console.log("updateiFrameHeight",val);
+    }
+  }
+</script>
 <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/foot.php"); ?>
