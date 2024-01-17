@@ -17,7 +17,8 @@ ContentstackUIExtension.init().then(function (extension) {
 
 ### Build UI
 ```javascript
-//init accepts data from the CMS form to pre-populate saved content entries.
+//init accepts an object from the CMS form to pre-populate saved content entries.
+//If no data is passed, a blank layout will be shown.
 init(object);
 
 //ex
