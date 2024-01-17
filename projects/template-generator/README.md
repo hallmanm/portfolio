@@ -23,21 +23,6 @@ init(object);
 
 //ex
 init(extensionField.field.getData());
-
-//extension data
-{
-  "baseURL": "https://cdn.contentstack.io/",
-  "contentType": "templates_master_module",
-  "templateEnv": "preview",
-  "DEV": {
-    "apiKey": "",
-    "deliveryToken": ""
-  },
-  "PROD": {
-    "apiKey": "",
-    "deliveryToken": ""
-  }
-}
 ```
 ### Show/Hide Templates
 The "Master Module" can be referenced in multiple places. One is for creating a marketing module and another for creating a module template. When creating a template, the template filter option is not needed.
@@ -50,5 +35,23 @@ if (boolean) {
 //ex
 if (extensionField.field.schema.config.showTemplates) {
   getTemplates();
+}
+```
+
+### Extension Data
+```javascript
+//config
+{
+  "baseURL": "https://cdn.contentstack.io/",
+  "contentType": "templates_master_module",
+  "templateEnv": "preview",
+  "DEV": {
+    "apiKey": "",
+    "deliveryToken": ""
+  },
+  "PROD": {
+    "apiKey": "",
+    "deliveryToken": ""
+  }
 }
 ```
