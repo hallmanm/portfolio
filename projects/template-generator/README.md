@@ -5,6 +5,12 @@ The "Master Module" is an application that allows CMS users to dynamically creat
 ## Usage
 The application is meant to be an "extension" within a headless CMS. The contents from <a href="https://github.com/hallmanm/portfolio/blob/main/projects/template-generator/master-module.html">master_module.html</a> can be directly included into the CMS extension. Typically, the CMS will import the extension as an iframe.
 
+### Rquirements
+* Content Type: "Master Module"
+* Content Type: "Templates - Master Module"
+* Extension: "Master Module"
+  * To be referenced within each content type listed above
+
 ### Extension Data
 ```javascript
 //config
