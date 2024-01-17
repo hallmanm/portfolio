@@ -36,3 +36,20 @@ if (extensionField.field.schema.config.showTemplates) {
   getTemplates();
 }
 ```
+
+### Contentstack specific extension data
+```javascript
+{
+  "baseURL": "https://cdn.contentstack.io/",
+  "contentType": "templates_master_module",
+  "templateEnv": "preview",
+  "DEV": {
+    "apiKey": "",
+    "deliveryToken": ""
+  },
+  "PROD": {
+    "apiKey": "",
+    "deliveryToken": ""
+  }
+}
+```
