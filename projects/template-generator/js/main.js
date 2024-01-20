@@ -827,8 +827,10 @@ function updateCSHeight() {
 
   updateCSDelay = setTimeout(function () {
     //extensionField.window.updateHeight(document.getElementById('height').offsetHeight);
-    var elem = document.getElementById('height');
-    window.parent.masterModule.updateiFrameHeight(elem.offsetHeight + parseInt(window.getComputedStyle(elem).marginTop.replace('px','')) + 125);
+    if(window.parent.masterModule){
+      var elem = document.getElementById('height');
+      window.parent.masterModule.updateiFrameHeight(elem.offsetHeight + parseInt(window.getComputedStyle(elem).marginTop.replace('px','')) + 125);
+    }
   }, 100);
 }
 //save data to CS
