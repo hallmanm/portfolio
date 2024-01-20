@@ -7,17 +7,17 @@ The application is designed to be delivered through a CMS. However, this functio
 
 ### Requirements
 
-## Dependencies
+#### Dependencies
 * Underscore JS
 * jQuery
 * jQuery UI
 
-## Target DIV Element
+#### Target DIV Element
 ```html
 <div id="AnimationWidgetWrapper"></div>
 ```
 
-## Data Object
+### Data Object
 ```javascript
 var animationData =
   {
