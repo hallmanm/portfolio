@@ -1,7 +1,7 @@
 # #LiveYourLife Cast Showcase
-This was a pair programming exercise with <a href="https://www.linkedin.com/in/scott-kehr-a166a659/" target="_blank">Scott Kehr</a>.
-
 The "**Live Your Life Cast Showcase**" is an application that provides information about different cast members leveraging images, video, and social media connections.
+
+<sup>This was a pair programming exercise with <a href="https://www.linkedin.com/in/scott-kehr-a166a659/" target="_blank">Scott Kehr</a>.</sup>
 
 ## Usage
 The application is designed to be directly integrated within your platform. This application is driven by JSON so it could be opened to CMS users if needed.
