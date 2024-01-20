@@ -13,8 +13,14 @@ The application is designed to be directly integrated within your platform. This
 * jQuery
 * Backbone JS
 * Modernizr JS
-* Media Element Player
+* Media Element Player JS
+* Media Element Player CSS
 * Alice JS
+
+#### Target DIV Element
+```html
+<div id="liveyourlifeContainer"></div>
+```
 
 ### Data Object
 ```javascript

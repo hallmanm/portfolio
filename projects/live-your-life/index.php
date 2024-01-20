@@ -28,7 +28,7 @@
       <a href="#"><span>Enter Contest</span></a>
     </div>
   </div>
-  <div id="liveyourlifeContainer"></div>        
+  <div id="liveyourlifeContainer"></div>
 </div>
 
 <div class="container">
