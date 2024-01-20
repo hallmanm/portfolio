@@ -70,15 +70,124 @@
   </div>
 </div>
 
+<h2>More Info...</h2>
+<p style="text-align: right;"><a class="code-link" href="https://github.com/hallmanm/portfolio/tree/main/projects/stop-motion" target="_blank"><img src="/images/logos/github.png"/></a></p>
+
 <div class="section">
-  <h2>More Info...</h2>
-  <div class="row section">
-    <div class="col-xs-12">
-      <p style="text-align: right;"><a class="code-link" href="https://github.com/hallmanm/portfolio/tree/main/projects/stop-motion" target="_blank"><img src="/images/logos/github.png"/></a></p>
-      <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/markdown.php"); ?>
-    </div>
+
+  <div class="section">
+    <h3>Purpose</h3>
+    <p>The Stop Motion carousel presents products dynamically and attractively, introducing a unique movement to the images without the burden of using videos. The application offers a versatile framework that can be effortlessly customized by business users using a simple data object.</p>
   </div>
+
+  <div class="section">
+    <h3>Background</h3>
+      <p>Following years of the consistent "Jean Guide" appearance, AEO sought a change. Through collaboration with the design team, I developed a dynamic and scalable solution applied across various product categories. A notable achievement was eliminating the requirement for engineering resources to facilitate new instances or modifications.</p>
+  </div>
+
+  <div class="section">
+    <h3>Overview</h3>
+
+    <div class="section">
+      <div class="row">
+        <div class="col-xs-9 col-sm-10 col-md-11">
+          <h4>Sprites</h4>
+          <p>Each model was filmed executing a simple movement, such as shifting their weight or moving their hands or legs. Ten frames were then chosen to serve as a repeatable and reversible motion.</p>
+          <h4>Window</h4>
+          <p>Only one frame of the sprite is visible, with the rest being masked. The sprite is moved both up and down, creating the illusion of a moving image, similar to a GIF. Ensuring natural-looking movement in reverse enables us to derive two animations from a single sprite.</p>
+          <h4>Setting the Size</h4>
+          <p>A requirement is that each sprite has a uniform width and height. Moreover, the overall height of the sprite is incorporated, enabling the code to animate through the total number of frames unique to each sprite. These values can be easily adjusted within the code to accommodate a variety of ratios. While the sprites are not responsive, they are adaptive. Depending on the adjustable viewport, the number of visible sprites will adapt to accommodate any device width. Similarly, the draggable preview window will adjust and toggle visibility based on the viewport.</p>
+          <h3>Technical Details</h3>
+          <h4>Building the Guide</h4>
+          <p>By setting several properties, the user can decide the following:</p>
+          <ul>
+            <li>Speed of frame animation</li>
+            <li>Minimum delay between animations</li>
+            <li>Maximum delay between animations</li>
+            <li>Display and size of preview window</li>
+            <li>Animating the intro of the guide on load</li>
+            <li>Display of scrollbar</li>
+            <li>Bounce animation of carousel arrows</li>
+            <li>Fading sprites based on viewport</li>
+            <li>Frame width and height</li>
+            <li>Sprite height</li>
+            <li>Sprite heading</li>
+            <li>Linking out to a URL</li>
+            <li>Image URL</li>
+          </ul>
+          <pre>
+{
+  'speed': 100,
+  'minInterval': 0,
+  'maxInterval': 2.5,
+  'preview': 30,
+  'intro': true,
+  'scrollbar': false,
+  'bounce': false,
+  'fade': false,
+  'imgWidth': 144,
+  'imgHeight': 365,
+  'linkTo': false,
+  'sprites': [
+  {
+      "copy": "Sky High Jegging",
+      "catId": "cat7010082",
+      "imgSrc": "/projects/stop-motion/images/skyhighjegging.jpg",
+      "imgHeight": 3650
+    },
+    ...
+  ]
+}
+          </pre>
+          <h4>Data Object</h4>
+          <p>Each sprite is coded as a data object in the application. The system tracks the position and direction of the current sprite animation. Furthermore, it ensures that each sprite within the viewport completes one animation cycle before any sprite is animated for a second time.</p>
+          <pre>
+for (var i = 0; i < animationCount; i++) {
+  animations[i].leftPosition = Math.round($(animations[i]).position().left);
+  animations[i].rightPosition = Math.round(animations[i].leftPosition + parseInt(animationOuterWidth, 10));
+  animations[i].sprite = $(animations[i]).find('img');
+  animations[i].frame_count = Math.round($(animations[i].sprite).attr('height') / animationHeight);
+  animations[i].top_pos = 0;
+  animations[i].hasPlayed = 0;
+  animations[i].loopCount = 1;
+}
+          </pre>
+          <h4>Randomization</h4>
+          <p>To provide a more organic feel to the guide, two aspects have been randomized. Firstly, the timing between sprite animations is set with minimum and maximum values. A randomized value within this range is selected each time to prevent the user from becoming accustomed to a specific pace. Additionally, the order in which the sprites animate is also randomized.</p>
+          <pre>
+//Create Random Delay Between Animations
+function randomizeInterval() {
+  randomized = true;
+
+  var randomInterval = Math.floor(Math.random() * (animationData.maxInterval * 10 - animationData.minInterval * 10) + animationData.minInterval * 10) * 100;
+
+  animationDelay = setTimeout(function() {
+    randomizeNumber();
+  }, randomInterval);
+}
+          </pre>
+          <pre>
+//Create Random Number for Animated Element
+function randomizeNumber(){
+  activeAnimation = Math.floor((Math.random() * animationCount));
+
+  checkNum();
+}
+          </pre>
+        </div>
+
+        <div class="col-xs-3 col-sm-2 col-md-1">
+          <img src="images/artist.jpg"/>
+        </div>
+      </div>
+    </div>
+  
+  
+  </div>
+
 </div>
+
+
 <script type="text/javascript" src="<?php echo $path; ?>js/jeans_data.js"></script>
 <script type="text/javascript" src="<?php echo $path; ?>js/sprite_gallery.js"></script>
 <script>

@@ -15,15 +15,15 @@
       </a>
     </div>
     <div class="card-link col-xs-6 col-sm-4 col-md-3">
-      <a href="/projects/headless-cms">
-        <img src="/projects/images/thumbs/brandcardinator.jpg"/>
-        <span>Headless CMS</span>
-      </a>
-    </div>
-    <div class="card-link col-xs-6 col-sm-4 col-md-3">
       <a href="/projects/template-generator">
         <img src="/projects/images/thumbs/mastermodule.jpg"/>
         <span>Master Module</span>
+      </a>
+    </div>
+    <div class="card-link col-xs-6 col-sm-4 col-md-3">
+      <a href="/projects/headless-cms">
+        <img src="/projects/images/thumbs/brandcardinator.jpg"/>
+        <span>Headless CMS</span>
       </a>
     </div>
     <div class="card-link col-xs-6 col-sm-4 col-md-3">
