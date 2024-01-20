@@ -5,7 +5,7 @@ The "**Master Module**" is an application that allows CMS users to dynamically c
 ## Usage
 The application is meant to be an "extension" within a headless CMS. Typically, the CMS will import the extension as an iframe. To mimic this, <a href="https://github.com/hallmanm/portfolio/blob/main/projects/template-generator/master-module.html">master_module.html</a> has been included in the index file as an iframe. Certain data has been mocked to show functionality. Be sure to update the commented sections when using within a true CMS.
 
-### Rquirements
+### Requirements
 * Dependencies
   * Contentstack UI Extension SDK and CSS
   * jQuery

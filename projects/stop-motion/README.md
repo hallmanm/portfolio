@@ -5,13 +5,19 @@ The "**Stop Motion Widget**" is an application that allows CMS users to dynamica
 ## Usage
 The application is designed to be delivered through a CMS. However, this functionality can be integrated directly into the platform, provided that the data driving the application is delivered dynamically and is accessible to business users.
 
-### Rquirements
-* Dependencies
-  * Underscore JS
-  * jQuery
-  * jQuery UI
+### Requirements
 
-### Data Object
+## Dependencies
+* Underscore JS
+* jQuery
+* jQuery UI
+
+## Target DIV Element
+```html
+<div id="AnimationWidgetWrapper"></div>
+```
+
+## Data Object
 ```javascript
 var animationData =
   {
@@ -35,9 +41,4 @@ var animationData =
       }
     ]
   };
-```
-
-### Target DIV Element
-```html
-<div id="AnimationWidgetWrapper"></div>
-```
+``````
