@@ -21,7 +21,7 @@
 
   <div class="section">
     <h3>Purpose</h3>
-    <p>This application was developed to enforce to restrict an users input to 300 words.</p>
+    <p>This application was developed to restrict input to 300 words within a contest entry.</p>
   </div>
 
   <div class="section">
