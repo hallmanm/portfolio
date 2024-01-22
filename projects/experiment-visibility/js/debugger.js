@@ -436,7 +436,7 @@
             content += '<div class="at_activity'+ (activity.info ? ' at_arrow' : '') +'" data-activity="'+ activity.iter +'" data-active="false">'+ activity.name +
               (activity.info ? '<div class="at_info">' +
                 (activity.info.desc ? '<div class="at_desc custom-scrollbars">'+ activity.info.desc +'</div>' : '') +
-                (activity.info.jira ? '<a class="at_jira" href="//jira.ae.com/browse/'+ activity.info.jira +'" target="_blank">JIRA '+ activity.info.jira +'</a>' : '') +
+                (activity.info.jira ? '<a class="at_jira" href="//jira.com/browse/'+ activity.info.jira +'" target="_blank">JIRA '+ activity.info.jira +'</a>' : '') +
               '</div>' : '') +
             '</div>';
           }
