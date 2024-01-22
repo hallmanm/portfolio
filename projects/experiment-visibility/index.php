@@ -52,6 +52,7 @@
   <div class="section">
     <h3>Overview</h3>
     <h4>Information</h4>
+    <p>The debugger framework was deployed through the experimentation tool. Consequently, when the tool was in use, the debugger became accessible. Users could activate the application through the console. Once enabled, the debugger would appear in the top-right corner of the browser. The application maintains its state through the utilization of cookies and local storage.</p>
     <p>Each "activity" includes a type (AB Test, Experience, Recommendation, Template, or Extension), a name, a brief description, a link to the corresponding JIRA ticket, and the parent DOM element.</p>
     <h4>Identification</h4>
     <p>When chosen, the element will be highlighted with the corresponding type color, outlining the entire area undergoing manipulation.</p>
