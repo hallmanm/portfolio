@@ -147,8 +147,8 @@
     var awo_url = window.location.href;
     var activeObj = {};
     var type = 'at';
-    var tealium_account = 'americaneagle';
-    var tealium_profile = 'awpmain'; //Check
+    var tealium_account = '';
+    var tealium_profile = '';
     var elem;
     var parameters = getParamObj(window.location.search.substring(1));
 
@@ -239,6 +239,9 @@
         }
         // }
       });
+
+      //for portfolio
+      $(peek).trigger('click');
 
       $('.at_btn_launch').on('click',function(){
         if($(this).data('program') === 'tealium'){
