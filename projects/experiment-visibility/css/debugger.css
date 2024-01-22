@@ -1,0 +1,356 @@
+.at_debugger {
+  z-index: 2;
+  position: absolute;
+  right: -350px;
+  top: 0;
+  width: 350px;
+  height: 95%;
+  padding: 50px 20px 50px 30px;
+  color: #999;
+  font-size: 12px;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-left: 1px solid #17d8ff;
+  border-bottom: 1px solid #17d8ff;
+  transition: right 1s, top 1s;
+}
+.at_debugger .custom-scrollbars::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+.at_debugger a {
+  color: #999;
+  text-decoration: underline;
+}
+.at_debugger a:hover {
+  text-decoration: none;
+}
+.at_debugger button,
+.at_debugger .at_btn_launch {
+  float: right;
+  color: #222;
+  background-color: #1bffd7;
+  border: none;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+.at_debugger .at_btn_launch {
+  float: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.at_debugger .at_btn_red {
+  background-color: #f94b6a;
+}
+.at_debugger button:hover {
+  background-color: #fff;
+}
+.at_debugger.at_revealed {
+  right: 0;
+}
+.at_debugger .at_peek {
+  position: absolute;
+  left: -40px;
+  top: -3px;
+  padding:16px 19px;
+  /* padding: 12px 13px 14px; */
+  background-color: #4b4b4b;
+  border: 1px solid #17d8ff;
+  cursor: pointer;
+  background-image: url('../images/adobe.png');
+  background-size:contain;
+}
+/* .at_debugger.at_revealed .icon-info {
+  display: none;
+}
+.at_debugger .icon-close {
+  display: none;
+}
+.at_debugger.at_revealed .icon-close {
+  display: inline-block;
+} */
+.at_debugger .at_disable,
+.at_debugger .at_disable_mbox,
+.at_debugger .at_disable_debug {
+  position: absolute;
+}
+.at_debugger .at_header {
+  position: absolute;
+  left: -1px;
+  top: 0;
+  width: 100%;
+  padding: 9px 0;
+  background-color: #4b4b4b;
+}
+.at_debugger .at_program,
+.at_debugger .at_tabs {
+  display: inline-block;
+  vertical-align: middle;
+}
+.at_debugger .at_program {
+  margin: 0 15px 0 5px;
+}
+.at_debugger .at_program select {
+  font-size: 15px;
+  border: none;
+  color: #fff;
+  background-color: transparent;
+}
+.at_debugger .at_tab {
+  padding: 0 10px;
+}
+.at_debugger .at_icon {
+  cursor: pointer;
+}
+
+.at_revealed .at_peek .at_icon,
+.at_debugger .at_tab_active .at_icon {
+  color: #fff;
+}
+.at_debugger .at_disable_mbox:hover span,
+.at_debugger .at_disable_debug:hover span,
+.at_debugger .at_peek:hover .at_icon,
+.at_debugger .at_icon:hover {
+  color: #17d8ff;
+}
+.at_debugger .at_disable_mbox,
+.at_debugger .at_disable_debug {
+  bottom: 10px;
+  cursor: pointer;
+}
+.at_debugger .at_disable_mbox span,
+.at_debugger .at_disable_debug span {
+  position: relative;
+  color: #f94b6a;
+}
+.at_debugger .at_disable_mbox span {
+  top: -1px;
+  padding-right: 4px;
+}
+.at_debugger .at_disable_debug span {
+  top: 0;
+  padding-left: 4px;
+}
+.at_debugger .at_disable_mbox {
+  left: 10px;
+}
+.at_debugger .at_disable_debug {
+  right: 10px;
+}
+.at_debugger .at_window {
+  display: none;
+  height: 100%;
+  padding-right: 15px;
+}
+.at_debugger .at_window.at_window_active {
+  display: block;
+}
+.at_debugger .at_window,
+.at_debugger .at_section {
+  position: relative;
+}
+
+.at_debugger .at_window_settings_at,
+.at_debugger .at_window_settings_tl {
+  display: none;
+}
+
+.at_debugger.at_debugger_at .at_window_settings_at,
+.at_debugger.at_debugger_tl .at_window_settings_tl {
+  display: block;
+}
+
+.at_debugger .at_window_settings .at_section {
+  padding: 10px 0;
+  border-bottom: 1px solid #444;
+}
+.at_debugger .at_section_header {
+  display: inline;
+  text-align: left;
+  color: #fff;
+}
+
+.at_debugger .at_view_all {
+  margin: 20px 0 10px;
+  text-align: right;
+  cursor: pointer;
+}
+.at_debugger .at_activity {
+  position: relative;
+  padding: 0 12px 0 36px;
+  text-indent: -36px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.at_debugger .at_arrow::before {
+  position: absolute;
+  content: '';
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 8px solid #888;
+  top: 4px;
+  right: 0;
+  transition: all 1s;
+}
+.at_debugger .at_activity[data-active='true'].at_arrow::before {
+  transform: rotate(-90deg);
+}
+.at_debugger .at_type {
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  width: 30px;
+  padding: 2px 0;
+  margin-right: 6px;
+  font-size: 8px;
+  line-height: normal;
+  text-indent: 0;
+  color: #fff;
+  background-color: #4b4b4b;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  text-align: center;
+}
+.at_debugger ul .at_type {
+  margin-top: 6px;
+}
+.at_debugger .at_type_ab {
+  border-color: #faa45a;
+}
+.at_debugger .at_type_rec {
+  border-color: #b4a9eb;
+}
+.at_debugger .at_type_xt {
+  border-color: #d2dc73;
+}
+.at_debugger .at_type_tmp {
+  border-color: #057abc;
+}
+.at_debugger .at_type_ext {
+  border-color: #7acfd0;
+}
+.at_debugger .at_info {
+  max-height: 0;
+  text-indent: 0;
+  color: #999;
+  font-size: 10px;
+  box-shadow: 0 1px 0px 0px #17d8ff;
+  transition: max-height 1s;
+  overflow: hidden;
+}
+.at_debugger .at_activity[data-active='true'] .at_info {
+  max-height: 100px;
+}
+.at_debugger .at_activity:last-child .at_info {
+  box-shadow: none;
+}
+.at_debugger .at_desc {
+  margin-bottom: 5px;
+  text-align: justify;
+}
+.at_debugger .at_activity[data-active='true'] .at_desc {
+  max-height: 78px;
+}
+.at_debugger .at_jira {
+  display: block;
+  margin-bottom: 5px;
+  text-align: right;
+}
+.at_highlight {
+  box-shadow: inset 0 0 6px -1px rgba(0, 0, 0, 0.3);
+  outline: 2px solid #17d8ff;
+}
+.at_highlight_ab {
+  outline-color: #faa45a;
+}
+.at_highlight_rec {
+  outline-color: #b4a9eb;
+}
+.at_highlight_xt {
+  outline-color: #d2dc73;
+}
+.at_highlight_tl {
+  outline-color: #057abc;
+}
+.at_debugger .at_view_all[data-active='true'] {
+  color: #17d8ff;
+}
+.at_debugger .at_activity[data-active='true'] {
+  color: #fff;
+}
+.at_debugger .at_activity[data-active='true'].at_arrow::before {
+  border-right-color: #17d8ff;
+}
+.at_debugger .at_window_settings input[type='text'],
+.at_debugger .at_window_settings select,
+.at_debugger .at_window_settings option,
+.at_debugger .at_window_settings a {
+  padding: 4px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+}
+.at_debugger .at_window_settings a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.at_debugger .at_window_settings a:hover {
+  background-color: #fff;
+}
+.at_debugger input {
+  width: 100%;
+}
+.at_debugger .at_program select {
+  outline: none;
+}
+.at_debugger ul {
+  padding-left: 0;
+}
+.at_debugger li {
+  font-size: 12px;
+  color: #fff;
+}
+.at_debugger p {
+  font-size: 10px;
+}
+.at_debugger .at_slider {
+  float: right;
+  width: 100px;
+  height: 20px;
+  background-color: #222;
+  border: 1px solid #4b4b4b;
+  border-radius: 10px;
+}
+.at_debugger .at_slider_btn {
+  width: 60%;
+  height: 100%;
+  background-color: #f94b6a;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.at_debugger .at_slider_active .at_slider_btn {
+  float: right;
+  background-color: #1bffd7;
+}
+.at_tealium_version {
+  font-size: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+.at_tealium_version span:first-child {
+  color: #fff;
+  font-weight: bold;
+}
+.at_section_user_groups {
+  text-align: right;
+}
+.at_section_user_groups label,
+.at_section_user_groups select {
+  display: inline;
+  width: 50%;
+}
+.at_section_user_groups label {
+  width: 48%;
+  margin-right: 2%;
+}

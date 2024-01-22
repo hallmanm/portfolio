@@ -39,6 +39,12 @@
       </a>
     </div>
     <div class="card-link col-xs-6 col-sm-4 col-md-3">
+      <a href="/projects/experiment-visibility">
+      <img src="/projects/images/thumbs/adobe.png"/>
+        <span>Experiment Visibility</span>
+      </a>
+    </div>
+    <div class="card-link col-xs-6 col-sm-4 col-md-3">
       <a href="/projects/parallax">
         <img src="/projects/images/thumbs/parallax.jpg"/>
         <span>Parallax</span>
